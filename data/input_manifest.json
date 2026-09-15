@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "path": "data/raw/hcp_engagement_train.csv",
+      "size_bytes": 6808662,
+      "sha256": "93cf7ddfaf0b859af6ab3578d0075b5e43bdf13939df765fc5c2a142dc18cac1"
+    },
+    {
+      "path": "data/raw/hcp_engagement_score.csv",
+      "size_bytes": 1759330,
+      "sha256": "f8570d28650a9744a444cebe0801d41aab4a903936ddf5bf5880e2a4810f3f99"
+    },
+    {
+      "path": "data/raw/submission_template.csv",
+      "size_bytes": 116137,
+      "sha256": "79e98acc0c2798cfd1de8b0ca6f7485f5a6172a406e1fe341868041d2cb73eed"
+    },
+    {
+      "path": "docs/source/Candidate_Brief.docx",
+      "size_bytes": 180615,
+      "sha256": "7d47df888e26775386d75a53aad1a46852f3e7ee924c1a43c36024de127392eb"
+    },
+    {
+      "path": "docs/source/Data_Dictionary.xlsx",
+      "size_bytes": 13857,
+      "sha256": "6059a1762cf75b4c50d121bacd67f29d4d05635de8981d1d9843c2ddd7bd20f6"
+    }
+  ]
+}

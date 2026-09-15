@@ -1,0 +1,37 @@
+{
+  "analysis_status": "Exploratory capacity and algorithm revision; historical periods previously examined",
+  "selected": {
+    "name": "extended_logistic",
+    "algorithm": "logistic",
+    "features": [
+      "decile",
+      "specialty",
+      "formulary_status",
+      "competitor_share_pct",
+      "region",
+      "institution_type",
+      "years_in_practice",
+      "email_sent_last_90d",
+      "emails_opened_last_90d",
+      "digital_engagement_score",
+      "payer_mix_commercial_pct"
+    ],
+    "parameters": {
+      "C": 0.1
+    }
+  },
+  "evaluated_at_utc": "2026-09-15T20:22:31.016639+00:00",
+  "selection_sha256": "3929b97412fb5dd356696ab38ba5ed0dad6893ff783861f30d03d25a88f8d3c4",
+  "selection_preceded_new_evaluation": "2026-09-13T21:12:13.949195+00:00",
+  "months_evaluated": 3,
+  "months_improved_by_capacity": {
+    "0.05": 3,
+    "0.1": 3,
+    "0.2": 3
+  },
+  "production_performance_established": false,
+  "causal_effect_established": false,
+  "six_month_check_independent": false,
+  "monthly_inputs_may_change_while_model_frozen": true,
+  "outcome_interpretation": "Supplied strict/loose labels; next-period construction remains unverified and subject to the separate temporal audit"
+}

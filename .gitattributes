@@ -1,0 +1,11 @@
+* text=auto eol=lf
+*.csv -text
+reports/challenger/*.json -text
+reports/decision_audit/*.json -text
+outputs/submission_final_metadata.json -text
+*.docx binary
+*.xlsx binary
+*.pdf binary
+*.pptx binary
+*.png binary
+*.jpg binary

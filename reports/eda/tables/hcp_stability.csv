@@ -1,0 +1,17 @@
+dataset,feature,hcps,hcps_with_changes,max_values_per_hcp
+train,specialty,2100,0,1
+train,region,2100,0,1
+train,territory_id,2100,0,1
+train,institution_type,2100,0,1
+train,campaign_wave_id,2100,2100,24
+train,formulary_status,2100,2100,4
+train,decile,2100,0,1
+train,years_in_practice,2100,0,1
+score,specialty,2200,0,1
+score,region,2200,0,1
+score,territory_id,2200,0,1
+score,institution_type,2200,0,1
+score,campaign_wave_id,2200,2200,6
+score,formulary_status,2200,2189,4
+score,decile,2200,0,1
+score,years_in_practice,2200,0,1

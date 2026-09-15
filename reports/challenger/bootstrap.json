@@ -1,0 +1,62 @@
+{
+  "scope": "Paired whole-HCP resampling conditional on fixed fitted models and observed later months; intervals are not simultaneous across capacities or forecasts for 2026",
+  "capacities": {
+    "0.05": {
+      "replicates": 2000,
+      "confidence": 0.95,
+      "mean_precision_difference": 0.15757458098751054,
+      "intervals": {
+        "selected_precision": {
+          "lower_95": 0.2696555684980263,
+          "upper_95": 0.3902171099462887
+        },
+        "baseline_precision": {
+          "lower_95": 0.13201320132013203,
+          "upper_95": 0.21368180935740633
+        },
+        "difference": {
+          "lower_95": 0.10204895489548954,
+          "upper_95": 0.21392205397010283
+        }
+      }
+    },
+    "0.1": {
+      "replicates": 2000,
+      "confidence": 0.95,
+      "mean_precision_difference": 0.09053146693979741,
+      "intervals": {
+        "selected_precision": {
+          "lower_95": 0.2306404347331285,
+          "upper_95": 0.3003311786191659
+        },
+        "baseline_precision": {
+          "lower_95": 0.146620006828269,
+          "upper_95": 0.21371739716712906
+        },
+        "difference": {
+          "lower_95": 0.05447947543579051,
+          "upper_95": 0.11685403762051084
+        }
+      }
+    },
+    "0.2": {
+      "replicates": 2000,
+      "confidence": 0.95,
+      "mean_precision_difference": 0.04367233019598257,
+      "intervals": {
+        "selected_precision": {
+          "lower_95": 0.1747653891202912,
+          "upper_95": 0.22538117621634968
+        },
+        "baseline_precision": {
+          "lower_95": 0.13497317158700178,
+          "upper_95": 0.178217850091231
+        },
+        "difference": {
+          "lower_95": 0.026386258674576234,
+          "upper_95": 0.06090600877445839
+        }
+      }
+    }
+  }
+}

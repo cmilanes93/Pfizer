@@ -1,0 +1,30 @@
+{
+  "created_at_utc": "2026-09-15T20:22:38.081611+00:00",
+  "analysis_status": "Exploratory target and ranking diagnostics using fixed evaluation predictions",
+  "sources_sha256": {
+    "data/raw/hcp_engagement_train.csv": "93cf7ddfaf0b859af6ab3578d0075b5e43bdf13939df765fc5c2a142dc18cac1",
+    "data/raw/hcp_engagement_score.csv": "f8570d28650a9744a444cebe0801d41aab4a903936ddf5bf5880e2a4810f3f99",
+    "reports/challenger/later_predictions.csv": "edcc269528e076892444f81542e62fa6aa3e965cf8b32be1e468821da965e76f",
+    "reports/challenger/later_monthly.csv": "f269e91df3fdf1a1bfc4313488a0a5a68c08ef3f8a7f8c056b1ed6396563d5a4",
+    "reports/challenger/six_month_predictions.csv": "0ce0f87280d9cf96aff720c1e555c42a37c478a8317944c1aa69846f0456fd3f",
+    "reports/challenger/six_month_monthly.csv": "bdb5b138b027564ba2eceed8440876c531dbdb112e6511a4322824afde13d2e1"
+  },
+  "capacities_are_scenarios_not_business_requirements": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "seed": 42,
+  "target_assumptions": "If following period means t+1, baseline means t, and row t+1/t+2 nbrx_last_month measure t/t+1",
+  "reconciliation_to_evaluation_metrics": {
+    "later": {
+      "policy_month_capacity_rows": 27,
+      "selection_counts_and_positive_counts_match": true
+    },
+    "six_month": {
+      "policy_month_capacity_rows": 54,
+      "selection_counts_and_positive_counts_match": true
+    }
+  },
+  "script_sha256": "4312979ab222f22d68dd1c2eef8faf65ece12d9b7f7a476ce3c46657a87ea8ad"
+}

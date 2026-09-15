@@ -1,0 +1,5 @@
+reference,cohort,scoring_rows,scoring_hcps,unseen_profile_rows,unseen_profile_row_fraction,unseen_profile_hcps,distinct_scoring_profiles,minimum_profile_historical_rows,median_profile_historical_rows_across_scoring_rows,minimum_profile_historical_hcps
+all_supplied_training,known_hcp,10405,1800,0,0.0,0,200,46,316.0,16
+all_supplied_training,new_hcp,2318,400,0,0.0,0,195,46,299.0,16
+final_fit_through_2025-11,known_hcp,10405,1800,0,0.0,0,200,46,306.0,16
+final_fit_through_2025-11,new_hcp,2318,400,0,0.0,0,195,46,284.0,16

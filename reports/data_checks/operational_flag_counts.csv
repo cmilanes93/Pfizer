@@ -1,0 +1,7 @@
+feature,dataset,period,rows,missing,zero,one,missing_fraction,zero_fraction,one_fraction
+followup_call_logged_flag,all_training,ALL,48585,0,41132,7453,0.0,0.8465987444684574,0.15340125553154266
+followup_call_logged_flag,recent_training,ALL,12135,0,10224,1911,0.0,0.842521631644005,0.15747836835599505
+followup_call_logged_flag,scoring,ALL,12723,11167,1368,188,0.8777017998899631,0.10752181089365716,0.014776389216379785
+territory_target_refresh_flag,all_training,ALL,48585,0,35829,12756,0.0,0.7374498301945045,0.2625501698054955
+territory_target_refresh_flag,recent_training,ALL,12135,0,8957,3178,0.0,0.7381128965801401,0.26188710341985993
+territory_target_refresh_flag,scoring,ALL,12723,0,9431,3292,0.0,0.7412559930833923,0.2587440069166077

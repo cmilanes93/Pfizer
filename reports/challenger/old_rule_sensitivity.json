@@ -1,0 +1,26 @@
+[
+  {
+    "simplicity_tolerance": 0,
+    "selected": "extended_logistic",
+    "precision_10": 0.2642668425057516,
+    "used_for_new_selection": false
+  },
+  {
+    "simplicity_tolerance": 0.005,
+    "selected": "extended_logistic",
+    "precision_10": 0.2642668425057516,
+    "used_for_new_selection": false
+  },
+  {
+    "simplicity_tolerance": 0.01,
+    "selected": "extended_logistic",
+    "precision_10": 0.2642668425057516,
+    "used_for_new_selection": false
+  },
+  {
+    "simplicity_tolerance": 0.02,
+    "selected": "core_logistic",
+    "precision_10": 0.2511869775792416,
+    "used_for_new_selection": false
+  }
+]

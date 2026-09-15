@@ -1,0 +1,7 @@
+feature,train_categories,score_categories,unseen_score_rows,recent_score_total_variation
+specialty,5,5,0,0.010859050800711631
+region,5,5,0,0.01696138904198785
+territory_id,347,348,24,0.09259850497046171
+institution_type,4,4,0,0.006109158471945764
+campaign_wave_id,219,219,0,0.0753470132393113
+formulary_status,4,4,0,0.0063370629891050315

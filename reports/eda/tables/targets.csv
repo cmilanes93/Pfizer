@@ -1,0 +1,3 @@
+target,rows,positives,prevalence
+responded_strict,48585,3424,0.07047442626324997
+responded_loose,48585,13186,0.2714006380570135

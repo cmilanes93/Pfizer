@@ -1,0 +1,17 @@
+dataset,followup_call_logged_flag,territory_target_refresh_flag,target,rows,positive_labels,positive_label_fraction
+all_training,0,0,responded_strict,31149,235,0.007544383447301679
+all_training,0,0,responded_loose,31149,6958,0.22337795755883014
+all_training,0,1,responded_strict,9983,318,0.03185415205849945
+all_training,0,1,responded_loose,9983,2364,0.236802564359411
+all_training,1,0,responded_strict,4680,1183,0.25277777777777777
+all_training,1,0,responded_loose,4680,1946,0.41581196581196583
+all_training,1,1,responded_strict,2773,1688,0.6087270104579877
+all_training,1,1,responded_loose,2773,1918,0.6916696718355572
+recent_training,0,0,responded_strict,7750,66,0.008516129032258065
+recent_training,0,0,responded_loose,7750,1705,0.22
+recent_training,0,1,responded_strict,2474,94,0.03799514955537591
+recent_training,0,1,responded_loose,2474,582,0.23524656426839127
+recent_training,1,0,responded_strict,1207,315,0.2609776304888152
+recent_training,1,0,responded_loose,1207,524,0.43413421706710853
+recent_training,1,1,responded_strict,704,436,0.6193181818181818
+recent_training,1,1,responded_loose,704,487,0.6917613636363636

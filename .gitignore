@@ -1,0 +1,27 @@
+# Python and local environments
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Local configuration
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+~$*
+
+# Optional intermediate export
+reports/challenger/presentation_data.json

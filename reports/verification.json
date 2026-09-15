@@ -1,0 +1,59 @@
+{
+  "verified_at_utc": "2026-09-15T20:18:18.828735+00:00",
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Windows",
+    "fresh_virtual_environment": true,
+    "requirements": "requirements-lock.txt",
+    "installation_passed": true
+  },
+  "tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "passed": 26,
+    "failed": 0
+  },
+  "pipeline": {
+    "command": "python -m src.solution",
+    "exit_code": 0,
+    "development_selection_reproduced_in_memory": true,
+    "recorded_selection_and_freeze_unchanged": true
+  },
+  "submission": {
+    "path": "outputs/submission_final.csv",
+    "rows": 12723,
+    "row_ids_match_template": true,
+    "scores_reproduced_exactly": true,
+    "sha256": "85c5d4aea25c3a850aea5af6aaa43fc92e2509e2453b3b2ef9618005a2fd524c"
+  },
+  "numeric_reproduction": {
+    "tables_compared": 79,
+    "maximum_auxiliary_absolute_difference": 4.832939604071385e-13,
+    "tolerance": 1e-12,
+    "category_shares_comparison_keys": [
+      "feature",
+      "category"
+    ],
+    "metric_definitions_and_selection_rule_unchanged": true
+  },
+  "selection_provenance": {
+    "record": "reports/challenger/selection.json",
+    "sha256": "3929b97412fb5dd356696ab38ba5ed0dad6893ff783861f30d03d25a88f8d3c4",
+    "implementation_record": "reports/challenger/implementation_freeze.json",
+    "development_metrics_record": "reports/challenger/development_metric_vectors.csv",
+    "runtime_validation": "Before evaluation or scoring, src.challenger.read_selection validates source fingerprints, the implementation freeze and development metric vectors, then verifies the recorded selection rule.",
+    "scope": "Integrity and internal consistency; not independent proof of selection chronology."
+  },
+  "protected_files_sha256": {
+    "config/challenger.json": "7ad97a316833bc27882e973a6a547ac007a4da85da3eed4f2f0b639f0e2ed705",
+    "docs/methodology/challenger_protocol.md": "1da546d30d3350de536170109b529de6614eebe67a305e693badb04ca3dafa26",
+    "config/revision.json": "2e6081995784074c7be8ffa2a29c5859ba0cf239d3997ef17dcee03e8a3fe6f0",
+    "data/raw/hcp_engagement_train.csv": "93cf7ddfaf0b859af6ab3578d0075b5e43bdf13939df765fc5c2a142dc18cac1",
+    "src/challenger.py": "0d1c66a9303f4afe03b189bb6e43ef618063d46c896928114cfcfc4d29c37dd8",
+    "src/modeling.py": "b2b207e5aacde1184840aa8cd246238c2563ee6df71b98334b5f5840c6c1c289",
+    "src/metrics.py": "e51495095c0a83191c627f2a379fed5fc3ff1c4177f96305f352fa2b45067327",
+    "src/eda.py": "96bf13223371e6f773ff107b61eaaaf4b0aed11fb07de51beadc86ffd6632b08",
+    "reports/challenger/selection.json": "3929b97412fb5dd356696ab38ba5ed0dad6893ff783861f30d03d25a88f8d3c4",
+    "reports/challenger/implementation_freeze.json": "77968b288f679ce6ca99c8387f50fa0304e94988efc3a4de824ed44066d4b917",
+    "reports/challenger/development_metric_vectors.csv": "37b04b85f91c21ec66ddbb2dc43cd088dedbcc1443f210ff1de80c049dcd14d7"
+  }
+}

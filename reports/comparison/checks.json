@@ -1,0 +1,38 @@
+{
+  "three_field_rate": {
+    "lower_95": -0.029637949273936308,
+    "upper_95": 0.022997244305711404
+  },
+  "core_logistic": {
+    "lower_95": -0.02795546180233786,
+    "upper_95": 0.014794786128859214
+  },
+  "hcp_history_frozen": {
+    "lower_95": 0.014933359467113553,
+    "upper_95": 0.08261150497717115
+  },
+  "adjacent_month_retained_fraction": {
+    "decile": 0.9086597083353656,
+    "three_field_rate": 0.4962322586938497,
+    "hcp_history_frozen": 0.9012461590986685,
+    "core_logistic": 0.4049285470418963,
+    "delivered_logistic": 0.40990342876652197,
+    "without_email_digital": 0.4296078622640589,
+    "hcp_history_rolling_diagnostic": 0.8592157245281178
+  },
+  "same_month_overlap_without_email_digital": 0.8273260823619308,
+  "lag2_response_rates_all_history_descriptive": {
+    "0": {
+      "rows": 39935,
+      "response_rate": 0.06498059346437962
+    },
+    "1": {
+      "rows": 3015,
+      "response_rate": 0.13266998341625208
+    }
+  },
+  "pooled_history_rate_auc_temporal_diagnostic": 0.6485544130274215,
+  "positive_share_top_20pct_hcps_descriptive": 0.5908294392523364,
+  "scope": "Exploratory comparison of simple policies. Frozen history can use only outcomes through the fitting cutoff. Rolling history uses newly matured historical outcomes and does not mirror the supplied six-month scoring batch. Bootstrap intervals condition on fitted scores and observed months.",
+  "source_training_sha256": "93cf7ddfaf0b859af6ab3578d0075b5e43bdf13939df765fc5c2a142dc18cac1"
+}

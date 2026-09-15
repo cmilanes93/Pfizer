@@ -1,0 +1,17 @@
+{
+  "scope": "Exploratory core plus past response rate. Both models exclude Jan-Feb 2024 fitting rows without history. Fit features use labels through t-2; evaluation histories freeze at fit cutoff. No retuning or delivery replacement.",
+  "later_conditional_intervals": {
+    "selected_precision": {
+      "lower_95": 0.24423660668029898,
+      "upper_95": 0.3174612658310166
+    },
+    "baseline_precision": {
+      "lower_95": 0.2359675651272925,
+      "upper_95": 0.31088206364826576
+    },
+    "difference": {
+      "lower_95": -0.008154350220526579,
+      "upper_95": 0.022972807821205185
+    }
+  }
+}

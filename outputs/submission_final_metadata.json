@@ -1,0 +1,55 @@
+{
+  "analysis_status": "Exploratory capacity and algorithm revision; historical periods previously examined",
+  "created_at_utc": "2026-09-15T20:22:34.330886+00:00",
+  "target": "responded_strict",
+  "specification": {
+    "name": "extended_logistic",
+    "algorithm": "logistic",
+    "features": [
+      "decile",
+      "specialty",
+      "formulary_status",
+      "competitor_share_pct",
+      "region",
+      "institution_type",
+      "years_in_practice",
+      "email_sent_last_90d",
+      "emails_opened_last_90d",
+      "digital_engagement_score",
+      "payer_mix_commercial_pct"
+    ],
+    "parameters": {
+      "C": 0.1
+    }
+  },
+  "training_row_cutoff": "2025-11",
+  "training_rows": 46563,
+  "scoring_rows": 12723,
+  "scoring_periods": [
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06"
+  ],
+  "model_frozen_across_scoring_periods": true,
+  "monthly_inputs_required_at_each_ranking": true,
+  "score_meaning": "Uncalibrated model response score used for ranking",
+  "submission_sha256": "85c5d4aea25c3a850aea5af6aaa43fc92e2509e2453b3b2ef9618005a2fd524c",
+  "selection_sha256": "3929b97412fb5dd356696ab38ba5ed0dad6893ff783861f30d03d25a88f8d3c4",
+  "fingerprints": {
+    "config": "7ad97a316833bc27882e973a6a547ac007a4da85da3eed4f2f0b639f0e2ed705",
+    "protocol": "1da546d30d3350de536170109b529de6614eebe67a305e693badb04ca3dafa26",
+    "feature_sets": "2e6081995784074c7be8ffa2a29c5859ba0cf239d3997ef17dcee03e8a3fe6f0",
+    "training": "93cf7ddfaf0b859af6ab3578d0075b5e43bdf13939df765fc5c2a142dc18cac1",
+    "implementation": "0d1c66a9303f4afe03b189bb6e43ef618063d46c896928114cfcfc4d29c37dd8",
+    "modeling": "b2b207e5aacde1184840aa8cd246238c2563ee6df71b98334b5f5840c6c1c289",
+    "metrics": "e51495095c0a83191c627f2a379fed5fc3ff1c4177f96305f352fa2b45067327",
+    "input_checks": "96bf13223371e6f773ff107b61eaaaf4b0aed11fb07de51beadc86ffd6632b08"
+  },
+  "scoring_sha256": "f8570d28650a9744a444cebe0801d41aab4a903936ddf5bf5880e2a4810f3f99",
+  "production_feature_availability_verified": false,
+  "target_temporal_construction_verified": false,
+  "selection_made_during_retrospective_exercise": true
+}

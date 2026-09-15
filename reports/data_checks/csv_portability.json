@@ -1,0 +1,14 @@
+{
+  "path": "outputs/submission_final.csv",
+  "rows_including_header": 12724,
+  "crlf_count": 12724,
+  "lone_lf_count": 0,
+  "actual_sha256": "85c5d4aea25c3a850aea5af6aaa43fc92e2509e2453b3b2ef9618005a2fd524c",
+  "hypothetical_lf_sha256": "9015e51a40e2a8987e27d4fb3cfeb661c7c6ea9f0b390490384e0a9d8fec11da",
+  "lf_conversion_changes_bytes": true,
+  "lf_conversion_preserves_parsed_values_exactly": true,
+  "conversion_performed_on_delivery": false,
+  "portable_claim": "CSV row IDs and scores are portable across platforms. Regeneration uses pandas default line endings, so identical values can have different file hashes on different operating systems.",
+  "git_attributes": "*.csv -text preserves committed bytes; it does not make newly generated CSV line endings platform-independent.",
+  "comparison_basis": "Compare parsed row IDs and scores independently of line-ending serialization."
+}

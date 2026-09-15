@@ -1,0 +1,36 @@
+{
+  "scope": "Reproduce capacity curves and quantify cutoff ties in the empirical table.\n\nThis diagnostic keeps the established models and later window fixed. It does\nnot choose a model or a tie rule using outcomes. Random-tie ranges condition on\nthe exact observed labels and scores; they are not performance confidence\nintervals or forecasts for a future population.",
+  "fit_through": "2025-08",
+  "evaluation_months": [
+    "2025-10",
+    "2025-11",
+    "2025-12"
+  ],
+  "fitted_profile_cells": 200,
+  "unique_fitted_response_rates": 176,
+  "primary_metric_max_absolute_difference": 5.551115123125783e-17,
+  "mean_monthly_tie_sensitivity": [
+    {
+      "capacity": 0.05,
+      "deterministic_precision": 0.301559567721478,
+      "expected_precision": 0.2958132458365423,
+      "minimum_possible_precision": 0.2622468129165858,
+      "maximum_possible_precision": 0.3146638193231088
+    },
+    {
+      "capacity": 0.1,
+      "deterministic_precision": 0.26479051846071305,
+      "expected_precision": 0.2660663480141117,
+      "minimum_possible_precision": 0.26314035344421144,
+      "maximum_possible_precision": 0.26973288461851114
+    },
+    {
+      "capacity": 0.2,
+      "deterministic_precision": 0.20264230126716376,
+      "expected_precision": 0.20281600284784815,
+      "minimum_possible_precision": 0.20264230126716376,
+      "maximum_possible_precision": 0.2034673837754146
+    }
+  ],
+  "interpretation": "Random ties are uniform selections without replacement within the exact cutoff score. Monthly 95% ranges describe tie randomness only. Mean monthly extrema are attainable bounds, not confidence intervals. No outcome-aware tie rule is used for delivery."
+}

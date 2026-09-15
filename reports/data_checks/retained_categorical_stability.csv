@@ -1,0 +1,5 @@
+feature,reference_rows,scoring_rows,reference_categories,scoring_categories,new_scoring_categories,total_variation_distance,max_absolute_category_share_difference
+specialty,12135,12723,5,5,0,0.010859050800711631,0.009310469821596612
+formulary_status,12135,12723,4,4,0,0.0063370629891050315,0.0063370629891050245
+region,12135,12723,5,5,0,0.01696138904198785,0.011535186318112067
+institution_type,12135,12723,4,4,0,0.006109158471945764,0.006109158471945764

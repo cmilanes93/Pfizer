@@ -1,0 +1,100 @@
+{
+  "decision": {
+    "selected": {
+      "name": "extended_logistic",
+      "algorithm": "logistic",
+      "features": [
+        "decile",
+        "specialty",
+        "formulary_status",
+        "competitor_share_pct",
+        "region",
+        "institution_type",
+        "years_in_practice",
+        "email_sent_last_90d",
+        "emails_opened_last_90d",
+        "digital_engagement_score",
+        "payer_mix_commercial_pct"
+      ],
+      "parameters": {
+        "C": 0.1
+      }
+    },
+    "admissible": [
+      "core_logistic",
+      "extended_boosting",
+      "extended_logistic"
+    ],
+    "nondominated": [
+      "extended_boosting",
+      "extended_logistic"
+    ]
+  },
+  "selected": {
+    "name": "extended_logistic",
+    "algorithm": "logistic",
+    "features": [
+      "decile",
+      "specialty",
+      "formulary_status",
+      "competitor_share_pct",
+      "region",
+      "institution_type",
+      "years_in_practice",
+      "email_sent_last_90d",
+      "emails_opened_last_90d",
+      "digital_engagement_score",
+      "payer_mix_commercial_pct"
+    ],
+    "parameters": {
+      "C": 0.1
+    }
+  },
+  "selected_at_utc": "2026-09-13T21:12:13.949195+00:00",
+  "analysis_status": "Exploratory capacity and algorithm revision; historical periods previously examined",
+  "fingerprints": {
+    "config": "7ad97a316833bc27882e973a6a547ac007a4da85da3eed4f2f0b639f0e2ed705",
+    "protocol": "1da546d30d3350de536170109b529de6614eebe67a305e693badb04ca3dafa26",
+    "feature_sets": "2e6081995784074c7be8ffa2a29c5859ba0cf239d3997ef17dcee03e8a3fe6f0",
+    "training": "93cf7ddfaf0b859af6ab3578d0075b5e43bdf13939df765fc5c2a142dc18cac1",
+    "implementation": "0d1c66a9303f4afe03b189bb6e43ef618063d46c896928114cfcfc4d29c37dd8",
+    "modeling": "b2b207e5aacde1184840aa8cd246238c2563ee6df71b98334b5f5840c6c1c289",
+    "metrics": "e51495095c0a83191c627f2a379fed5fc3ff1c4177f96305f352fa2b45067327",
+    "input_checks": "96bf13223371e6f773ff107b61eaaaf4b0aed11fb07de51beadc86ffd6632b08"
+  },
+  "implementation_freeze_sha256": "77968b288f679ce6ca99c8387f50fa0304e94988efc3a4de824ed44066d4b917",
+  "development_vectors_sha256": "37b04b85f91c21ec66ddbb2dc43cd088dedbcc1443f210ff1de80c049dcd14d7",
+  "metric_vectors": [
+    {
+      "model": "core_logistic",
+      "average_precision": 0.222331396991975,
+      "precision_05": 0.285154986086844,
+      "precision_10": 0.251186977579242,
+      "precision_20": 0.194877876708996
+    },
+    {
+      "model": "decile",
+      "average_precision": 0.135434089090551,
+      "precision_05": 0.167184365495373,
+      "precision_10": 0.159182906120227,
+      "precision_20": 0.154541555616824
+    },
+    {
+      "model": "extended_boosting",
+      "average_precision": 0.25062580077088,
+      "precision_05": 0.314631463146315,
+      "precision_10": 0.262640984469354,
+      "precision_20": 0.205549323549534
+    },
+    {
+      "model": "extended_logistic",
+      "average_precision": 0.243086592575868,
+      "precision_05": 0.31459910696952,
+      "precision_10": 0.264266842505752,
+      "precision_20": 0.20638053800082
+    }
+  ],
+  "later_periods_previously_examined": true,
+  "new_later_metrics_used_for_selection": false,
+  "selection_rule": "Admissible if weakly better than decile on all four development metrics and strictly better on one; remove dominated learned candidates; prefer fewer inputs, then logistic, then higher AP, then name"
+}

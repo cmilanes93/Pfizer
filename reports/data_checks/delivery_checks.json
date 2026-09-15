@@ -1,0 +1,57 @@
+{
+  "scope": "Input-distribution stability, operational flags, runtime compatibility and CSV portability",
+  "reference_window": "2025-07 to 2025-12",
+  "scoring_window": "2026-01 to 2026-06",
+  "reference_rows": 12135,
+  "reference_hcps": 2100,
+  "scoring_rows": 12723,
+  "scoring_hcps": 2200,
+  "retained_features": [
+    "decile",
+    "specialty",
+    "formulary_status",
+    "competitor_share_pct",
+    "region",
+    "institution_type",
+    "years_in_practice",
+    "email_sent_last_90d",
+    "emails_opened_last_90d",
+    "digital_engagement_score",
+    "payer_mix_commercial_pct"
+  ],
+  "numeric_features_checked": 7,
+  "categorical_features_checked": 4,
+  "maximum_absolute_standardized_mean_difference": 0.03275078414942071,
+  "maximum_numeric_ks_statistic": 0.017890553174142232,
+  "maximum_categorical_total_variation": 0.01696138904198785,
+  "no_unseen_retained_categories": true,
+  "retained_input_missing_cells": 0,
+  "stability_claim": "The eleven retained inputs show small marginal distribution changes between these two extracts; their distributions are not identical.",
+  "metric_definitions": {
+    "standardized_mean_difference": "(Scoring mean - reference mean) / sqrt((reference sample variance + scoring sample variance)/2); signed and expressed in pooled standard deviations",
+    "ks_statistic": "Largest absolute empirical-CDF difference for one numeric feature; descriptive D only, without an independence-based p-value",
+    "total_variation": "Half the sum of absolute category-probability differences over the union of categories; ranges from 0 to 1"
+  },
+  "interpretation_limits": [
+    "Rows are HCP-months and HCPs recur; these are descriptive row-weighted comparisons, not independent-sample significance tests.",
+    "No pass/fail threshold or claim of equivalent distributions is imposed.",
+    "Marginal similarity does not establish joint-distribution stability, stable individual HCP values, target calibration, data correctness or historical feature availability.",
+    "Cohort composition differs between periods; small marginal differences do not resolve the target-definition or as-of risks."
+  ],
+  "flag_counts_source": "reports/data_checks/operational_flag_counts.csv",
+  "flag_definitions_source": "reports/data_checks/operational_flag_definitions.json",
+  "joint_flag_associations_source": "reports/data_checks/operational_flag_joint_associations.csv",
+  "runtime_source": "reports/data_checks/runtime_compatibility.json",
+  "csv_portability_source": "reports/data_checks/csv_portability.json",
+  "source_hashes_before_and_after_unchanged": {
+    "data/raw/hcp_engagement_train.csv": "93cf7ddfaf0b859af6ab3578d0075b5e43bdf13939df765fc5c2a142dc18cac1",
+    "data/raw/hcp_engagement_score.csv": "f8570d28650a9744a444cebe0801d41aab4a903936ddf5bf5880e2a4810f3f99",
+    "data/raw/submission_template.csv": "79e98acc0c2798cfd1de8b0ca6f7485f5a6172a406e1fe341868041d2cb73eed",
+    "docs/source/Data_Dictionary.xlsx": "6059a1762cf75b4c50d121bacd67f29d4d05635de8981d1d9843c2ddd7bd20f6",
+    "outputs/submission_final.csv": "85c5d4aea25c3a850aea5af6aaa43fc92e2509e2453b3b2ef9618005a2fd524c",
+    "outputs/submission_final_metadata.json": "d4ca8a4b98991c6610e14334ee68187215e889310b7feb0d95a05a2ade42f79c",
+    "requirements-lock.txt": "fa33863eb13349b50919c4fa167c3f7297f78675f55273cf8233bb31c1e423a5",
+    "src/challenger.py": "0d1c66a9303f4afe03b189bb6e43ef618063d46c896928114cfcfc4d29c37dd8"
+  },
+  "diagnostic_script_sha256": "238cbb808eb224e1413cea9715043eb7367b722ed3ae6d8765cd5bab4ad8fa56"
+}

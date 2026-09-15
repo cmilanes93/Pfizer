@@ -1,0 +1,3 @@
+dataset,rows,hcps,first_period,last_period,duplicate_hcp_months,missing_cells,min_rows_per_hcp,median_rows_per_hcp,max_rows_per_hcp
+train,48585,2100,2024-01,2025-12,0,0,19,23.0,24
+score,12723,2200,2026-01,2026-06,0,11167,3,6.0,6

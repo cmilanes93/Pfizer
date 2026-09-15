@@ -1,0 +1,12 @@
+{
+  "input_rows": 48585,
+  "within_extract_horizon": 44546,
+  "checked_rows": 41395,
+  "checked_hcps": 2100,
+  "excluded_end_of_extract_rows": 4039,
+  "missing_consecutive_records_within_horizon": 3151,
+  "checked_label_period_start": "2024-01",
+  "checked_label_period_end": "2025-10",
+  "condition": "If following period means t+1, baseline means t, and row t+1/t+2 nbrx_last_month measure t/t+1",
+  "does_not_reconstruct_labels_or_prove_label_error": true
+}

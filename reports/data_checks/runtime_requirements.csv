@@ -1,0 +1,20 @@
+package,pinned_version,installed_version,requires_python,allows_python_3_10,allows_python_3_11,allows_python_3_12
+cloudpickle,3.1.2,3.1.2,>=3.8,True,True,True
+contourpy,1.4.0,1.4.0,>=3.12,False,False,True
+cycler,0.12.1,0.12.1,>=3.8,True,True,True
+fonttools,4.65.0,4.65.0,>=3.10,True,True,True
+joblib,1.6.0,1.6.0,>=3.10,True,True,True
+kiwisolver,1.5.1,1.5.1,>=3.10,True,True,True
+matplotlib,3.10.8,3.10.8,>=3.10,True,True,True
+numpy,2.3.5,2.3.5,>=3.11,False,True,True
+packaging,26.3,26.3,>=3.9,True,True,True
+pandas,2.2.3,2.2.3,>=3.9,True,True,True
+pillow,12.3.0,12.3.0,>=3.10,True,True,True
+pyparsing,3.3.2,3.3.2,>=3.9,True,True,True
+python-dateutil,2.9.0.post0,2.9.0.post0,"!=3.0.*,!=3.1.*,!=3.2.*,>=2.7",True,True,True
+pytz,2026.3.post1,2026.3.post1,,True,True,True
+scikit-learn,1.8.0,1.8.0,>=3.11,False,True,True
+scipy,1.17.0,1.17.0,>=3.11,False,True,True
+six,1.17.0,1.17.0,">=2.7, !=3.0.*, !=3.1.*, !=3.2.*",True,True,True
+threadpoolctl,3.6.0,3.6.0,>=3.9,True,True,True
+tzdata,2026.4,2026.4,>=2,True,True,True

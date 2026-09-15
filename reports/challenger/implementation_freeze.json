@@ -1,0 +1,15 @@
+{
+  "frozen_at_utc": "2026-09-13T21:12:12.996718+00:00",
+  "fingerprints": {
+    "config": "7ad97a316833bc27882e973a6a547ac007a4da85da3eed4f2f0b639f0e2ed705",
+    "protocol": "1da546d30d3350de536170109b529de6614eebe67a305e693badb04ca3dafa26",
+    "feature_sets": "2e6081995784074c7be8ffa2a29c5859ba0cf239d3997ef17dcee03e8a3fe6f0",
+    "training": "93cf7ddfaf0b859af6ab3578d0075b5e43bdf13939df765fc5c2a142dc18cac1",
+    "implementation": "0d1c66a9303f4afe03b189bb6e43ef618063d46c896928114cfcfc4d29c37dd8",
+    "modeling": "b2b207e5aacde1184840aa8cd246238c2563ee6df71b98334b5f5840c6c1c289",
+    "metrics": "e51495095c0a83191c627f2a379fed5fc3ff1c4177f96305f352fa2b45067327",
+    "input_checks": "96bf13223371e6f773ff107b61eaaaf4b0aed11fb07de51beadc86ffd6632b08"
+  },
+  "source_commit": "848e7f800355d89116a0b1e590ca5d54f5a3c6ec",
+  "analysis_status": "Exploratory capacity and algorithm revision; historical periods previously examined"
+}

@@ -1,0 +1,19 @@
+{
+  "stage": "Attendance-definition check after the initial model evaluation",
+  "definition": "Attendance in the previous 12 months, per supplied dictionary",
+  "interpretation": "Consecutive 0-1-0 histories conflict with the literal rolling-window definition absent corrections or changed semantics; not proof of leakage",
+  "train": {
+    "rows": 48585,
+    "hcps": 2100,
+    "complete_consecutive_triples": 41395,
+    "patterns_010": 4598,
+    "affected_hcps": 1887
+  },
+  "score": {
+    "rows": 12723,
+    "hcps": 2200,
+    "complete_consecutive_triples": 7898,
+    "patterns_010": 856,
+    "affected_hcps": 783
+  }
+}

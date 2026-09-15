@@ -1,0 +1,44 @@
+{
+  "schema_version": "presentation-validation.v1",
+  "verified_at_utc": "2026-09-15T20:35:12.475466+00:00",
+  "sha256": {
+    "Pfizer_challenge_final.pptx": "e174c760939f5950322df4c3522c137eb44e2ce8ec8ee536c66392eaad577fe1",
+    "Pfizer_challenge_final.pdf": "4ef5d2bcd8f1c5d0e5b4a00d296a257c404a0cd4c4e25c1ed0dc4202ea5eaac8"
+  },
+  "pdf_pages": 6,
+  "pptx_slides": 6,
+  "speaker_note_parts": 6,
+  "native_charts": 4,
+  "embedded_chart_workbooks": 4,
+  "chart_numeric_values_unchanged": true,
+  "package_findings": 0,
+  "layout_findings": 0,
+  "layout_warnings": [
+    {
+      "slide": 2,
+      "kind": "dense_bold_paragraphs_without_spacing",
+      "visual_review": "Both lines fit within the existing band; no clipping or overlap observed."
+    }
+  ],
+  "visual_review": "All six final PDF pages inspected at presentation size; text, chart labels and intervals are legible.",
+  "pdf_format": {
+    "page_images": [
+      2560,
+      1440
+    ],
+    "dpi": 192,
+    "text_searchable": false,
+    "renderer": "Artifact Tool",
+    "assembly": "ReportLab"
+  },
+  "author": "cmilanes93",
+  "title": "HCP Engagement Prioritisation — Pfizer Technical Exercise",
+  "content_checks": [
+    "Six brief topics retained",
+    "All displayed evidence retained",
+    "Post-selection visit sensitivity included in note 3",
+    "Canonical evidence sources cited"
+  ],
+  "native_powerpoint_execution_performed": false,
+  "source_artifacts_unchanged": true
+}

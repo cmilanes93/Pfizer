@@ -1,0 +1,24 @@
+{
+  "analysis_status": "Exploratory revision after the original later-period results were examined",
+  "seed": 42,
+  "primary_target": "responded_strict",
+  "secondary_target": "responded_loose",
+  "primary_capacity": 0.1,
+  "capacity_scenarios": [0.05, 0.1, 0.2],
+  "label_horizon_months": 1,
+  "development": {"fit_through": "2025-05", "start": "2025-07", "end": "2025-09"},
+  "later_check": {"fit_through": "2025-08", "start": "2025-10", "end": "2025-12"},
+  "six_month_frozen": {"fit_through": "2025-05", "start": "2025-07", "end": "2025-12"},
+  "scoring_fit_through": "2025-11",
+  "bootstrap_replicates": 2000,
+  "unseen_hcp_fraction": 0.2,
+  "simplicity_tolerance_precision": 0.01,
+  "C": 0.1,
+  "eligible_candidate_sets": {
+    "core": ["decile", "specialty", "formulary_status", "competitor_share_pct"],
+    "extended_without_speaker": ["decile", "specialty", "formulary_status", "competitor_share_pct", "region", "institution_type", "years_in_practice", "email_sent_last_90d", "emails_opened_last_90d", "digital_engagement_score", "payer_mix_commercial_pct"]
+  },
+  "reference_only": {
+    "original_extended": ["decile", "specialty", "formulary_status", "competitor_share_pct", "region", "institution_type", "years_in_practice", "email_sent_last_90d", "emails_opened_last_90d", "speaker_program_attended_12m", "digital_engagement_score", "payer_mix_commercial_pct"]
+  }
+}

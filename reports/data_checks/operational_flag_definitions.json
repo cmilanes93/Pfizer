@@ -1,0 +1,25 @@
+{
+  "source": "docs/source/Data_Dictionary.xlsx",
+  "source_sha256": "6059a1762cf75b4c50d121bacd67f29d4d05635de8981d1d9843c2ddd7bd20f6",
+  "definitions": [
+    {
+      "feature": "followup_call_logged_flag",
+      "sheet": "Data dictionary",
+      "field_cell": "A33",
+      "type_cell": "B33",
+      "description_cell": "E33",
+      "type_verbatim": "Decimal (0/1 or blank)",
+      "description_verbatim": "Whether a follow-up interaction was logged against this HCP in the CRM for the engagement cycle. Written by a downstream CRM process; completeness varies by extract."
+    },
+    {
+      "feature": "territory_target_refresh_flag",
+      "sheet": "Data dictionary",
+      "field_cell": "A34",
+      "type_cell": "B34",
+      "description_cell": "E34",
+      "type_verbatim": "Decimal (0/1)",
+      "description_verbatim": "Whether the HCP's targeting tier was refreshed during the cycle. Same timing note as followup_call_logged_flag applies."
+    }
+  ],
+  "interpretation": "Downstream/cycle-update timing is documented, but exact availability timestamps are not. Blank follow-up flags remain missing; they are not treated as zero. Association with supplied outcomes does not establish prediction-time availability or leakage by itself."
+}

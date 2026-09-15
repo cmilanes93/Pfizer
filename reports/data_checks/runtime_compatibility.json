@@ -1,0 +1,10 @@
+{
+  "tested_python": "3.12.14",
+  "platform": "Windows",
+  "all_locked_packages_installed_at_pinned_versions": true,
+  "all_locked_packages_allow_python_3_12": true,
+  "packages_excluding_python_3_11": [
+    "contourpy"
+  ],
+  "runtime_requirement": "The pinned environment requires Python 3.12."
+}

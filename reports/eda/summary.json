@@ -1,0 +1,40 @@
+{
+  "status": "descriptive analysis; no fitted model or predictions",
+  "comparison_reference": "Jul-Dec 2025 unless otherwise labelled",
+  "targets": [
+    {
+      "target": "responded_strict",
+      "rows": 48585,
+      "positives": 3424,
+      "prevalence": 0.07047442626324997
+    },
+    {
+      "target": "responded_loose",
+      "rows": 48585,
+      "positives": 13186,
+      "prevalence": 0.2714006380570135
+    }
+  ],
+  "scoring_cohorts": [
+    {
+      "cohort": "new in score",
+      "rows": 2318,
+      "hcps": 400,
+      "row_share": 0.18218973512536352
+    },
+    {
+      "cohort": "seen in train",
+      "rows": 10405,
+      "hcps": 1800,
+      "row_share": 0.8178102648746365
+    }
+  ],
+  "validated": [
+    "schema",
+    "HCP-month uniqueness",
+    "period coverage",
+    "numeric bounds",
+    "target nesting",
+    "submission row alignment"
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "run_at_utc": "2026-09-15T20:22:43.961728+00:00",
+  "variants": {
+    "delivered": [
+      "decile",
+      "specialty",
+      "formulary_status",
+      "competitor_share_pct",
+      "region",
+      "institution_type",
+      "years_in_practice",
+      "email_sent_last_90d",
+      "emails_opened_last_90d",
+      "digital_engagement_score",
+      "payer_mix_commercial_pct"
+    ],
+    "add_calls": [
+      "decile",
+      "specialty",
+      "formulary_status",
+      "competitor_share_pct",
+      "region",
+      "institution_type",
+      "years_in_practice",
+      "email_sent_last_90d",
+      "emails_opened_last_90d",
+      "digital_engagement_score",
+      "payer_mix_commercial_pct",
+      "calls_last_90d"
+    ],
+    "add_samples": [
+      "decile",
+      "specialty",
+      "formulary_status",
+      "competitor_share_pct",
+      "region",
+      "institution_type",
+      "years_in_practice",
+      "email_sent_last_90d",
+      "emails_opened_last_90d",
+      "digital_engagement_score",
+      "payer_mix_commercial_pct",
+      "samples_dropped_last_90d"
+    ],
+    "add_calls_samples_recency": [
+      "decile",
+      "specialty",
+      "formulary_status",
+      "competitor_share_pct",
+      "region",
+      "institution_type",
+      "years_in_practice",
+      "email_sent_last_90d",
+      "emails_opened_last_90d",
+      "digital_engagement_score",
+      "payer_mix_commercial_pct",
+      "calls_last_90d",
+      "samples_dropped_last_90d",
+      "days_since_last_call"
+    ],
+    "remove_email_digital": [
+      "decile",
+      "specialty",
+      "formulary_status",
+      "competitor_share_pct",
+      "region",
+      "institution_type",
+      "years_in_practice",
+      "payer_mix_commercial_pct"
+    ]
+  },
+  "settings": {
+    "target": "responded_strict",
+    "capacities": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "development": {
+      "fit_through": "2025-05",
+      "start": "2025-07",
+      "end": "2025-09"
+    },
+    "later": {
+      "fit_through": "2025-08",
+      "start": "2025-10",
+      "end": "2025-12"
+    },
+    "label_horizon_months": 1,
+    "seed": 42,
+    "logistic_C": 0.1,
+    "solver": "lbfgs",
+    "max_iter": 1000,
+    "tol": 1e-07,
+    "numeric_preprocessing": "StandardScaler fitted on the fitting window",
+    "categorical_preprocessing": "OneHotEncoder(handle_unknown='ignore', sparse_output=False)"
+  },
+  "bootstrap": {
+    "window": "later",
+    "baseline": "delivered",
+    "capacity": 0.1,
+    "replicates": 2000,
+    "seed": 42,
+    "confidence_level": 0.95,
+    "method": "Paired whole-HCP resampling with fitted models fixed",
+    "difference_units": "precision fraction; multiply by 100 for percentage points",
+    "precision_difference_intervals": {
+      "add_calls": {
+        "lower_95": -0.0033003300330032848,
+        "upper_95": 0.036238948222185666
+      },
+      "add_samples": {
+        "lower_95": -0.004950495049504955,
+        "upper_95": 0.026353872890911196
+      }
+    }
+  },
+  "delivery_anchor": {
+    "source": "reports/challenger/later_summary.csv",
+    "model": "extended_logistic",
+    "capacity": 0.1,
+    "committed_precision": 0.2697572712936318,
+    "reproduced_precision": 0.2697572712936318,
+    "absolute_difference": 0.0,
+    "tolerance": 1e-09
+  },
+  "aggregation": "Precision and average precision are monthly means; selected and true positives are summed across months.",
+  "note": "This check ran after model selection. It changes no delivered score or recorded selection and creates no new holdout. Associations and conditional bootstrap intervals do not establish historical input availability or a causal engagement effect."
+}

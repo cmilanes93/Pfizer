@@ -1,0 +1,228 @@
+{
+  "scope": "Mean monthly precision on the 1%-100% display grid; not dominance at every possible list size",
+  "pairs": [
+    {
+      "left": "core_logistic",
+      "right": "decile",
+      "crossing_intervals": [],
+      "left_higher_grid_points": 99,
+      "right_higher_grid_points": 0,
+      "tied_grid_points": 1
+    },
+    {
+      "left": "core_logistic",
+      "right": "extended_boosting",
+      "crossing_intervals": [
+        {
+          "from_capacity": 0.34,
+          "to_capacity": 0.35
+        },
+        {
+          "from_capacity": 0.35,
+          "to_capacity": 0.36
+        },
+        {
+          "from_capacity": 0.36,
+          "to_capacity": 0.37
+        },
+        {
+          "from_capacity": 0.39,
+          "to_capacity": 0.4
+        },
+        {
+          "from_capacity": 0.4,
+          "to_capacity": 0.41
+        },
+        {
+          "from_capacity": 0.48,
+          "to_capacity": 0.49
+        },
+        {
+          "from_capacity": 0.58,
+          "to_capacity": 0.59
+        },
+        {
+          "from_capacity": 0.66,
+          "to_capacity": 0.67
+        },
+        {
+          "from_capacity": 0.67,
+          "to_capacity": 0.68
+        },
+        {
+          "from_capacity": 0.73,
+          "to_capacity": 0.74
+        },
+        {
+          "from_capacity": 0.74,
+          "to_capacity": 0.75
+        },
+        {
+          "from_capacity": 0.78,
+          "to_capacity": 0.79
+        },
+        {
+          "from_capacity": 0.8,
+          "to_capacity": 0.81
+        },
+        {
+          "from_capacity": 0.87,
+          "to_capacity": 0.88
+        },
+        {
+          "from_capacity": 0.88,
+          "to_capacity": 0.89
+        },
+        {
+          "from_capacity": 0.93,
+          "to_capacity": 0.94
+        }
+      ],
+      "left_higher_grid_points": 42,
+      "right_higher_grid_points": 54,
+      "tied_grid_points": 4
+    },
+    {
+      "left": "core_logistic",
+      "right": "extended_logistic",
+      "crossing_intervals": [
+        {
+          "from_capacity": 0.24,
+          "to_capacity": 0.25
+        },
+        {
+          "from_capacity": 0.34,
+          "to_capacity": 0.35
+        },
+        {
+          "from_capacity": 0.36,
+          "to_capacity": 0.37
+        },
+        {
+          "from_capacity": 0.37,
+          "to_capacity": 0.38
+        },
+        {
+          "from_capacity": 0.4,
+          "to_capacity": 0.41
+        },
+        {
+          "from_capacity": 0.45,
+          "to_capacity": 0.46
+        },
+        {
+          "from_capacity": 0.6,
+          "to_capacity": 0.61
+        },
+        {
+          "from_capacity": 0.68,
+          "to_capacity": 0.69
+        },
+        {
+          "from_capacity": 0.75,
+          "to_capacity": 0.76
+        },
+        {
+          "from_capacity": 0.86,
+          "to_capacity": 0.88
+        }
+      ],
+      "left_higher_grid_points": 34,
+      "right_higher_grid_points": 59,
+      "tied_grid_points": 7
+    },
+    {
+      "left": "decile",
+      "right": "extended_boosting",
+      "crossing_intervals": [],
+      "left_higher_grid_points": 0,
+      "right_higher_grid_points": 99,
+      "tied_grid_points": 1
+    },
+    {
+      "left": "decile",
+      "right": "extended_logistic",
+      "crossing_intervals": [],
+      "left_higher_grid_points": 0,
+      "right_higher_grid_points": 99,
+      "tied_grid_points": 1
+    },
+    {
+      "left": "extended_boosting",
+      "right": "extended_logistic",
+      "crossing_intervals": [
+        {
+          "from_capacity": 0.01,
+          "to_capacity": 0.03
+        },
+        {
+          "from_capacity": 0.04,
+          "to_capacity": 0.05
+        },
+        {
+          "from_capacity": 0.09,
+          "to_capacity": 0.1
+        },
+        {
+          "from_capacity": 0.14,
+          "to_capacity": 0.15
+        },
+        {
+          "from_capacity": 0.17,
+          "to_capacity": 0.18
+        },
+        {
+          "from_capacity": 0.2,
+          "to_capacity": 0.21
+        },
+        {
+          "from_capacity": 0.34,
+          "to_capacity": 0.35
+        },
+        {
+          "from_capacity": 0.49,
+          "to_capacity": 0.5
+        },
+        {
+          "from_capacity": 0.51,
+          "to_capacity": 0.52
+        },
+        {
+          "from_capacity": 0.52,
+          "to_capacity": 0.53
+        },
+        {
+          "from_capacity": 0.55,
+          "to_capacity": 0.56
+        },
+        {
+          "from_capacity": 0.66,
+          "to_capacity": 0.67
+        },
+        {
+          "from_capacity": 0.68,
+          "to_capacity": 0.69
+        },
+        {
+          "from_capacity": 0.75,
+          "to_capacity": 0.76
+        },
+        {
+          "from_capacity": 0.76,
+          "to_capacity": 0.77
+        },
+        {
+          "from_capacity": 0.78,
+          "to_capacity": 0.79
+        },
+        {
+          "from_capacity": 0.81,
+          "to_capacity": 0.82
+        }
+      ],
+      "left_higher_grid_points": 34,
+      "right_higher_grid_points": 61,
+      "tied_grid_points": 5
+    }
+  ]
+}

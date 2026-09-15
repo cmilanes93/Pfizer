@@ -1,0 +1,791 @@
+cohort,decile,specialty,formulary_status,scoring_rows,scoring_hcps,historical_rows,historical_hcps,historical_strict_positives,profile_seen,reference
+known_hcp,1,Cardiology,Non-preferred,50,25,257,31,7,True,all_supplied_training
+known_hcp,1,Cardiology,Not covered,20,17,88,30,3,True,all_supplied_training
+known_hcp,1,Cardiology,Preferred,63,25,196,31,6,True,all_supplied_training
+known_hcp,1,Cardiology,Restricted,24,15,177,31,0,True,all_supplied_training
+known_hcp,1,Endocrinology,Non-preferred,43,22,231,29,7,True,all_supplied_training
+known_hcp,1,Endocrinology,Not covered,9,7,77,28,0,True,all_supplied_training
+known_hcp,1,Endocrinology,Preferred,68,25,186,29,4,True,all_supplied_training
+known_hcp,1,Endocrinology,Restricted,37,22,178,29,3,True,all_supplied_training
+known_hcp,1,Internal Medicine,Non-preferred,98,48,500,62,7,True,all_supplied_training
+known_hcp,1,Internal Medicine,Not covered,33,23,201,59,0,True,all_supplied_training
+known_hcp,1,Internal Medicine,Preferred,118,51,374,62,6,True,all_supplied_training
+known_hcp,1,Internal Medicine,Restricted,62,38,358,62,3,True,all_supplied_training
+known_hcp,1,Nephrology,Non-preferred,40,19,227,24,1,True,all_supplied_training
+known_hcp,1,Nephrology,Not covered,15,11,57,22,0,True,all_supplied_training
+known_hcp,1,Nephrology,Preferred,44,20,136,24,0,True,all_supplied_training
+known_hcp,1,Nephrology,Restricted,20,14,139,24,2,True,all_supplied_training
+known_hcp,1,Primary Care,Non-preferred,88,44,482,56,2,True,all_supplied_training
+known_hcp,1,Primary Care,Not covered,27,20,154,53,0,True,all_supplied_training
+known_hcp,1,Primary Care,Preferred,117,46,364,56,9,True,all_supplied_training
+known_hcp,1,Primary Care,Restricted,60,37,305,56,2,True,all_supplied_training
+known_hcp,2,Cardiology,Non-preferred,50,24,238,30,4,True,all_supplied_training
+known_hcp,2,Cardiology,Not covered,9,7,100,29,0,True,all_supplied_training
+known_hcp,2,Cardiology,Preferred,64,24,186,30,8,True,all_supplied_training
+known_hcp,2,Cardiology,Restricted,29,16,175,30,3,True,all_supplied_training
+known_hcp,2,Endocrinology,Non-preferred,42,18,221,26,3,True,all_supplied_training
+known_hcp,2,Endocrinology,Not covered,12,11,66,25,1,True,all_supplied_training
+known_hcp,2,Endocrinology,Preferred,56,21,177,26,7,True,all_supplied_training
+known_hcp,2,Endocrinology,Restricted,24,15,134,25,3,True,all_supplied_training
+known_hcp,2,Internal Medicine,Non-preferred,92,46,556,64,9,True,all_supplied_training
+known_hcp,2,Internal Medicine,Not covered,32,26,165,56,0,True,all_supplied_training
+known_hcp,2,Internal Medicine,Preferred,118,51,401,64,13,True,all_supplied_training
+known_hcp,2,Internal Medicine,Restricted,65,39,363,64,5,True,all_supplied_training
+known_hcp,2,Nephrology,Non-preferred,27,13,159,19,3,True,all_supplied_training
+known_hcp,2,Nephrology,Not covered,10,9,57,18,1,True,all_supplied_training
+known_hcp,2,Nephrology,Preferred,34,15,123,19,5,True,all_supplied_training
+known_hcp,2,Nephrology,Restricted,17,12,108,19,0,True,all_supplied_training
+known_hcp,2,Primary Care,Non-preferred,87,43,456,55,5,True,all_supplied_training
+known_hcp,2,Primary Care,Not covered,15,15,166,55,0,True,all_supplied_training
+known_hcp,2,Primary Care,Preferred,130,47,332,55,5,True,all_supplied_training
+known_hcp,2,Primary Care,Restricted,51,35,320,55,5,True,all_supplied_training
+known_hcp,3,Cardiology,Non-preferred,50,25,224,30,10,True,all_supplied_training
+known_hcp,3,Cardiology,Not covered,9,9,84,29,1,True,all_supplied_training
+known_hcp,3,Cardiology,Preferred,63,25,189,30,11,True,all_supplied_training
+known_hcp,3,Cardiology,Restricted,30,21,192,30,3,True,all_supplied_training
+known_hcp,3,Endocrinology,Non-preferred,46,27,290,35,14,True,all_supplied_training
+known_hcp,3,Endocrinology,Not covered,19,15,98,33,1,True,all_supplied_training
+known_hcp,3,Endocrinology,Preferred,69,28,235,35,18,True,all_supplied_training
+known_hcp,3,Endocrinology,Restricted,45,25,190,35,2,True,all_supplied_training
+known_hcp,3,Internal Medicine,Non-preferred,113,52,534,65,10,True,all_supplied_training
+known_hcp,3,Internal Medicine,Not covered,27,23,200,62,1,True,all_supplied_training
+known_hcp,3,Internal Medicine,Preferred,128,57,441,65,26,True,all_supplied_training
+known_hcp,3,Internal Medicine,Restricted,76,47,330,65,5,True,all_supplied_training
+known_hcp,3,Nephrology,Non-preferred,38,18,202,25,5,True,all_supplied_training
+known_hcp,3,Nephrology,Not covered,11,9,74,25,1,True,all_supplied_training
+known_hcp,3,Nephrology,Preferred,51,20,158,25,9,True,all_supplied_training
+known_hcp,3,Nephrology,Restricted,20,13,140,25,0,True,all_supplied_training
+known_hcp,3,Primary Care,Non-preferred,129,63,631,75,20,True,all_supplied_training
+known_hcp,3,Primary Care,Not covered,31,28,233,72,0,True,all_supplied_training
+known_hcp,3,Primary Care,Preferred,159,66,486,75,18,True,all_supplied_training
+known_hcp,3,Primary Care,Restricted,72,49,392,75,5,True,all_supplied_training
+known_hcp,4,Cardiology,Non-preferred,54,31,325,39,10,True,all_supplied_training
+known_hcp,4,Cardiology,Not covered,24,13,104,37,2,True,all_supplied_training
+known_hcp,4,Cardiology,Preferred,77,31,252,39,14,True,all_supplied_training
+known_hcp,4,Cardiology,Restricted,48,27,226,39,7,True,all_supplied_training
+known_hcp,4,Endocrinology,Non-preferred,48,25,249,31,9,True,all_supplied_training
+known_hcp,4,Endocrinology,Not covered,10,8,93,30,2,True,all_supplied_training
+known_hcp,4,Endocrinology,Preferred,66,25,201,30,19,True,all_supplied_training
+known_hcp,4,Endocrinology,Restricted,39,21,177,31,5,True,all_supplied_training
+known_hcp,4,Internal Medicine,Non-preferred,111,55,535,66,20,True,all_supplied_training
+known_hcp,4,Internal Medicine,Not covered,32,26,214,62,2,True,all_supplied_training
+known_hcp,4,Internal Medicine,Preferred,142,57,422,66,22,True,all_supplied_training
+known_hcp,4,Internal Medicine,Restricted,53,35,362,66,8,True,all_supplied_training
+known_hcp,4,Nephrology,Non-preferred,21,13,167,19,3,True,all_supplied_training
+known_hcp,4,Nephrology,Not covered,10,9,64,19,0,True,all_supplied_training
+known_hcp,4,Nephrology,Preferred,50,17,98,19,8,True,all_supplied_training
+known_hcp,4,Nephrology,Restricted,17,13,115,19,3,True,all_supplied_training
+known_hcp,4,Primary Care,Non-preferred,73,34,400,44,11,True,all_supplied_training
+known_hcp,4,Primary Care,Not covered,26,20,147,44,1,True,all_supplied_training
+known_hcp,4,Primary Care,Preferred,86,35,250,44,9,True,all_supplied_training
+known_hcp,4,Primary Care,Restricted,44,25,226,44,5,True,all_supplied_training
+known_hcp,5,Cardiology,Non-preferred,39,22,288,31,15,True,all_supplied_training
+known_hcp,5,Cardiology,Not covered,16,11,79,28,2,True,all_supplied_training
+known_hcp,5,Cardiology,Preferred,66,24,198,31,23,True,all_supplied_training
+known_hcp,5,Cardiology,Restricted,25,16,152,31,7,True,all_supplied_training
+known_hcp,5,Endocrinology,Non-preferred,59,30,302,39,16,True,all_supplied_training
+known_hcp,5,Endocrinology,Not covered,19,15,120,37,2,True,all_supplied_training
+known_hcp,5,Endocrinology,Preferred,73,31,267,39,30,True,all_supplied_training
+known_hcp,5,Endocrinology,Restricted,30,21,221,39,10,True,all_supplied_training
+known_hcp,5,Internal Medicine,Non-preferred,83,42,496,58,30,True,all_supplied_training
+known_hcp,5,Internal Medicine,Not covered,30,22,179,54,5,True,all_supplied_training
+known_hcp,5,Internal Medicine,Preferred,110,43,350,58,30,True,all_supplied_training
+known_hcp,5,Internal Medicine,Restricted,60,34,316,58,9,True,all_supplied_training
+known_hcp,5,Nephrology,Non-preferred,31,14,159,19,6,True,all_supplied_training
+known_hcp,5,Nephrology,Not covered,6,4,55,19,0,True,all_supplied_training
+known_hcp,5,Nephrology,Preferred,47,17,124,19,11,True,all_supplied_training
+known_hcp,5,Nephrology,Restricted,17,14,99,19,4,True,all_supplied_training
+known_hcp,5,Primary Care,Non-preferred,95,49,528,62,17,True,all_supplied_training
+known_hcp,5,Primary Care,Not covered,31,25,177,60,2,True,all_supplied_training
+known_hcp,5,Primary Care,Preferred,130,52,384,62,22,True,all_supplied_training
+known_hcp,5,Primary Care,Restricted,62,39,349,62,2,True,all_supplied_training
+known_hcp,6,Cardiology,Non-preferred,57,29,299,38,16,True,all_supplied_training
+known_hcp,6,Cardiology,Not covered,17,12,124,38,7,True,all_supplied_training
+known_hcp,6,Cardiology,Preferred,72,29,258,38,32,True,all_supplied_training
+known_hcp,6,Cardiology,Restricted,39,22,200,37,7,True,all_supplied_training
+known_hcp,6,Endocrinology,Non-preferred,66,32,356,43,28,True,all_supplied_training
+known_hcp,6,Endocrinology,Not covered,21,19,127,42,1,True,all_supplied_training
+known_hcp,6,Endocrinology,Preferred,76,35,253,43,35,True,all_supplied_training
+known_hcp,6,Endocrinology,Restricted,40,26,262,43,16,True,all_supplied_training
+known_hcp,6,Internal Medicine,Non-preferred,104,51,556,67,30,True,all_supplied_training
+known_hcp,6,Internal Medicine,Not covered,33,28,188,64,1,True,all_supplied_training
+known_hcp,6,Internal Medicine,Preferred,141,58,434,67,45,True,all_supplied_training
+known_hcp,6,Internal Medicine,Restricted,78,51,369,67,4,True,all_supplied_training
+known_hcp,6,Nephrology,Non-preferred,25,10,151,18,8,True,all_supplied_training
+known_hcp,6,Nephrology,Not covered,9,7,46,16,0,True,all_supplied_training
+known_hcp,6,Nephrology,Preferred,26,11,115,18,16,True,all_supplied_training
+known_hcp,6,Nephrology,Restricted,10,7,98,18,3,True,all_supplied_training
+known_hcp,6,Primary Care,Non-preferred,65,33,369,43,14,True,all_supplied_training
+known_hcp,6,Primary Care,Not covered,21,18,138,41,5,True,all_supplied_training
+known_hcp,6,Primary Care,Preferred,99,35,263,43,24,True,all_supplied_training
+known_hcp,6,Primary Care,Restricted,29,21,228,43,7,True,all_supplied_training
+known_hcp,7,Cardiology,Non-preferred,59,30,324,42,30,True,all_supplied_training
+known_hcp,7,Cardiology,Not covered,29,24,143,42,6,True,all_supplied_training
+known_hcp,7,Cardiology,Preferred,94,36,263,42,49,True,all_supplied_training
+known_hcp,7,Cardiology,Restricted,37,23,241,42,17,True,all_supplied_training
+known_hcp,7,Endocrinology,Non-preferred,60,28,378,45,36,True,all_supplied_training
+known_hcp,7,Endocrinology,Not covered,23,17,132,44,3,True,all_supplied_training
+known_hcp,7,Endocrinology,Preferred,88,36,275,45,60,True,all_supplied_training
+known_hcp,7,Endocrinology,Restricted,45,28,246,45,11,True,all_supplied_training
+known_hcp,7,Internal Medicine,Non-preferred,95,49,566,67,44,True,all_supplied_training
+known_hcp,7,Internal Medicine,Not covered,31,21,196,64,5,True,all_supplied_training
+known_hcp,7,Internal Medicine,Preferred,131,53,421,67,50,True,all_supplied_training
+known_hcp,7,Internal Medicine,Restricted,58,37,377,67,11,True,all_supplied_training
+known_hcp,7,Nephrology,Non-preferred,28,14,184,20,16,True,all_supplied_training
+known_hcp,7,Nephrology,Not covered,8,6,56,19,1,True,all_supplied_training
+known_hcp,7,Nephrology,Preferred,39,15,119,20,22,True,all_supplied_training
+known_hcp,7,Nephrology,Restricted,23,15,110,20,6,True,all_supplied_training
+known_hcp,7,Primary Care,Non-preferred,61,30,377,48,25,True,all_supplied_training
+known_hcp,7,Primary Care,Not covered,18,14,144,46,7,True,all_supplied_training
+known_hcp,7,Primary Care,Preferred,87,33,305,48,36,True,all_supplied_training
+known_hcp,7,Primary Care,Restricted,31,22,287,48,13,True,all_supplied_training
+known_hcp,8,Cardiology,Non-preferred,27,14,198,25,16,True,all_supplied_training
+known_hcp,8,Cardiology,Not covered,12,10,71,24,3,True,all_supplied_training
+known_hcp,8,Cardiology,Preferred,46,20,156,25,34,True,all_supplied_training
+known_hcp,8,Cardiology,Restricted,26,15,144,25,14,True,all_supplied_training
+known_hcp,8,Endocrinology,Non-preferred,51,23,239,29,34,True,all_supplied_training
+known_hcp,8,Endocrinology,Not covered,12,12,88,26,1,True,all_supplied_training
+known_hcp,8,Endocrinology,Preferred,60,24,176,29,47,True,all_supplied_training
+known_hcp,8,Endocrinology,Restricted,22,16,162,29,12,True,all_supplied_training
+known_hcp,8,Internal Medicine,Non-preferred,111,54,600,68,43,True,all_supplied_training
+known_hcp,8,Internal Medicine,Not covered,28,22,189,64,6,True,all_supplied_training
+known_hcp,8,Internal Medicine,Preferred,150,61,387,68,67,True,all_supplied_training
+known_hcp,8,Internal Medicine,Restricted,65,45,384,68,23,True,all_supplied_training
+known_hcp,8,Nephrology,Non-preferred,20,11,156,18,14,True,all_supplied_training
+known_hcp,8,Nephrology,Not covered,5,5,53,18,3,True,all_supplied_training
+known_hcp,8,Nephrology,Preferred,36,13,112,18,20,True,all_supplied_training
+known_hcp,8,Nephrology,Restricted,14,10,89,18,7,True,all_supplied_training
+known_hcp,8,Primary Care,Non-preferred,76,40,472,52,37,True,all_supplied_training
+known_hcp,8,Primary Care,Not covered,16,16,146,50,7,True,all_supplied_training
+known_hcp,8,Primary Care,Preferred,115,44,310,52,33,True,all_supplied_training
+known_hcp,8,Primary Care,Restricted,44,29,272,52,24,True,all_supplied_training
+known_hcp,9,Cardiology,Non-preferred,51,24,320,37,54,True,all_supplied_training
+known_hcp,9,Cardiology,Not covered,20,15,101,35,8,True,all_supplied_training
+known_hcp,9,Cardiology,Preferred,78,30,242,37,59,True,all_supplied_training
+known_hcp,9,Cardiology,Restricted,35,24,197,37,16,True,all_supplied_training
+known_hcp,9,Endocrinology,Non-preferred,47,22,292,36,46,True,all_supplied_training
+known_hcp,9,Endocrinology,Not covered,22,17,114,35,10,True,all_supplied_training
+known_hcp,9,Endocrinology,Preferred,49,24,226,35,69,True,all_supplied_training
+known_hcp,9,Endocrinology,Restricted,48,23,189,36,17,True,all_supplied_training
+known_hcp,9,Internal Medicine,Non-preferred,109,53,526,66,64,True,all_supplied_training
+known_hcp,9,Internal Medicine,Not covered,28,25,216,62,14,True,all_supplied_training
+known_hcp,9,Internal Medicine,Preferred,134,52,420,66,87,True,all_supplied_training
+known_hcp,9,Internal Medicine,Restricted,71,43,378,66,33,True,all_supplied_training
+known_hcp,9,Nephrology,Non-preferred,21,13,134,17,17,True,all_supplied_training
+known_hcp,9,Nephrology,Not covered,6,6,62,16,2,True,all_supplied_training
+known_hcp,9,Nephrology,Preferred,39,14,100,17,25,True,all_supplied_training
+known_hcp,9,Nephrology,Restricted,14,9,95,17,10,True,all_supplied_training
+known_hcp,9,Primary Care,Non-preferred,87,40,553,65,63,True,all_supplied_training
+known_hcp,9,Primary Care,Not covered,23,19,181,62,7,True,all_supplied_training
+known_hcp,9,Primary Care,Preferred,117,45,403,65,59,True,all_supplied_training
+known_hcp,9,Primary Care,Restricted,62,39,366,65,20,True,all_supplied_training
+known_hcp,10,Cardiology,Non-preferred,72,35,375,44,78,True,all_supplied_training
+known_hcp,10,Cardiology,Not covered,21,15,131,43,9,True,all_supplied_training
+known_hcp,10,Cardiology,Preferred,79,33,275,44,105,True,all_supplied_training
+known_hcp,10,Cardiology,Restricted,45,26,245,44,35,True,all_supplied_training
+known_hcp,10,Endocrinology,Non-preferred,48,24,292,34,69,True,all_supplied_training
+known_hcp,10,Endocrinology,Not covered,13,12,94,33,8,True,all_supplied_training
+known_hcp,10,Endocrinology,Preferred,66,27,188,34,59,True,all_supplied_training
+known_hcp,10,Endocrinology,Restricted,40,20,214,34,26,True,all_supplied_training
+known_hcp,10,Internal Medicine,Non-preferred,94,51,520,63,80,True,all_supplied_training
+known_hcp,10,Internal Medicine,Not covered,35,30,182,61,8,True,all_supplied_training
+known_hcp,10,Internal Medicine,Preferred,130,52,373,63,87,True,all_supplied_training
+known_hcp,10,Internal Medicine,Restricted,64,36,368,63,35,True,all_supplied_training
+known_hcp,10,Nephrology,Non-preferred,33,16,178,21,37,True,all_supplied_training
+known_hcp,10,Nephrology,Not covered,9,8,65,21,4,True,all_supplied_training
+known_hcp,10,Nephrology,Preferred,40,16,118,21,40,True,all_supplied_training
+known_hcp,10,Nephrology,Restricted,16,10,110,21,12,True,all_supplied_training
+known_hcp,10,Primary Care,Non-preferred,80,43,489,60,64,True,all_supplied_training
+known_hcp,10,Primary Care,Not covered,29,21,184,58,8,True,all_supplied_training
+known_hcp,10,Primary Care,Preferred,122,47,366,60,62,True,all_supplied_training
+known_hcp,10,Primary Care,Restricted,53,34,338,59,21,True,all_supplied_training
+new_hcp,1,Cardiology,Non-preferred,21,10,257,31,7,True,all_supplied_training
+new_hcp,1,Cardiology,Not covered,3,3,88,30,3,True,all_supplied_training
+new_hcp,1,Cardiology,Preferred,22,10,196,31,6,True,all_supplied_training
+new_hcp,1,Cardiology,Restricted,12,9,177,31,0,True,all_supplied_training
+new_hcp,1,Endocrinology,Non-preferred,20,10,231,29,7,True,all_supplied_training
+new_hcp,1,Endocrinology,Not covered,7,4,77,28,0,True,all_supplied_training
+new_hcp,1,Endocrinology,Preferred,32,12,186,29,4,True,all_supplied_training
+new_hcp,1,Endocrinology,Restricted,12,9,178,29,3,True,all_supplied_training
+new_hcp,1,Internal Medicine,Non-preferred,20,9,500,62,7,True,all_supplied_training
+new_hcp,1,Internal Medicine,Not covered,9,7,201,59,0,True,all_supplied_training
+new_hcp,1,Internal Medicine,Preferred,29,11,374,62,6,True,all_supplied_training
+new_hcp,1,Internal Medicine,Restricted,7,5,358,62,3,True,all_supplied_training
+new_hcp,1,Nephrology,Non-preferred,4,1,227,24,1,True,all_supplied_training
+new_hcp,1,Nephrology,Preferred,1,1,136,24,0,True,all_supplied_training
+new_hcp,1,Nephrology,Restricted,1,1,139,24,2,True,all_supplied_training
+new_hcp,1,Primary Care,Non-preferred,10,7,482,56,2,True,all_supplied_training
+new_hcp,1,Primary Care,Not covered,8,5,154,53,0,True,all_supplied_training
+new_hcp,1,Primary Care,Preferred,17,7,364,56,9,True,all_supplied_training
+new_hcp,1,Primary Care,Restricted,7,5,305,56,2,True,all_supplied_training
+new_hcp,2,Cardiology,Non-preferred,12,7,238,30,4,True,all_supplied_training
+new_hcp,2,Cardiology,Not covered,4,3,100,29,0,True,all_supplied_training
+new_hcp,2,Cardiology,Preferred,21,8,186,30,8,True,all_supplied_training
+new_hcp,2,Cardiology,Restricted,7,4,175,30,3,True,all_supplied_training
+new_hcp,2,Endocrinology,Non-preferred,10,5,221,26,3,True,all_supplied_training
+new_hcp,2,Endocrinology,Not covered,3,3,66,25,1,True,all_supplied_training
+new_hcp,2,Endocrinology,Preferred,16,6,177,26,7,True,all_supplied_training
+new_hcp,2,Endocrinology,Restricted,6,5,134,25,3,True,all_supplied_training
+new_hcp,2,Internal Medicine,Non-preferred,24,13,556,64,9,True,all_supplied_training
+new_hcp,2,Internal Medicine,Not covered,5,5,165,56,0,True,all_supplied_training
+new_hcp,2,Internal Medicine,Preferred,29,13,401,64,13,True,all_supplied_training
+new_hcp,2,Internal Medicine,Restricted,19,11,363,64,5,True,all_supplied_training
+new_hcp,2,Nephrology,Non-preferred,14,6,159,19,3,True,all_supplied_training
+new_hcp,2,Nephrology,Not covered,4,3,57,18,1,True,all_supplied_training
+new_hcp,2,Nephrology,Preferred,11,5,123,19,5,True,all_supplied_training
+new_hcp,2,Nephrology,Restricted,5,4,108,19,0,True,all_supplied_training
+new_hcp,2,Primary Care,Non-preferred,13,5,456,55,5,True,all_supplied_training
+new_hcp,2,Primary Care,Not covered,1,1,166,55,0,True,all_supplied_training
+new_hcp,2,Primary Care,Preferred,16,5,332,55,5,True,all_supplied_training
+new_hcp,3,Cardiology,Non-preferred,15,7,224,30,10,True,all_supplied_training
+new_hcp,3,Cardiology,Not covered,2,2,84,29,1,True,all_supplied_training
+new_hcp,3,Cardiology,Preferred,20,8,189,30,11,True,all_supplied_training
+new_hcp,3,Cardiology,Restricted,9,5,192,30,3,True,all_supplied_training
+new_hcp,3,Endocrinology,Non-preferred,5,3,290,35,14,True,all_supplied_training
+new_hcp,3,Endocrinology,Not covered,1,1,98,33,1,True,all_supplied_training
+new_hcp,3,Endocrinology,Preferred,8,3,235,35,18,True,all_supplied_training
+new_hcp,3,Endocrinology,Restricted,3,2,190,35,2,True,all_supplied_training
+new_hcp,3,Internal Medicine,Non-preferred,22,10,534,65,10,True,all_supplied_training
+new_hcp,3,Internal Medicine,Not covered,4,3,200,62,1,True,all_supplied_training
+new_hcp,3,Internal Medicine,Preferred,25,10,441,65,26,True,all_supplied_training
+new_hcp,3,Internal Medicine,Restricted,7,5,330,65,5,True,all_supplied_training
+new_hcp,3,Nephrology,Non-preferred,16,6,202,25,5,True,all_supplied_training
+new_hcp,3,Nephrology,Not covered,1,1,74,25,1,True,all_supplied_training
+new_hcp,3,Nephrology,Preferred,12,6,158,25,9,True,all_supplied_training
+new_hcp,3,Nephrology,Restricted,6,4,140,25,0,True,all_supplied_training
+new_hcp,3,Primary Care,Non-preferred,10,6,631,75,20,True,all_supplied_training
+new_hcp,3,Primary Care,Not covered,2,1,233,72,0,True,all_supplied_training
+new_hcp,3,Primary Care,Preferred,15,6,486,75,18,True,all_supplied_training
+new_hcp,3,Primary Care,Restricted,8,5,392,75,5,True,all_supplied_training
+new_hcp,4,Cardiology,Non-preferred,5,4,325,39,10,True,all_supplied_training
+new_hcp,4,Cardiology,Not covered,3,2,104,37,2,True,all_supplied_training
+new_hcp,4,Cardiology,Preferred,8,4,252,39,14,True,all_supplied_training
+new_hcp,4,Cardiology,Restricted,7,3,226,39,7,True,all_supplied_training
+new_hcp,4,Endocrinology,Non-preferred,8,4,249,31,9,True,all_supplied_training
+new_hcp,4,Endocrinology,Not covered,1,1,93,30,2,True,all_supplied_training
+new_hcp,4,Endocrinology,Preferred,10,4,201,30,19,True,all_supplied_training
+new_hcp,4,Endocrinology,Restricted,4,3,177,31,5,True,all_supplied_training
+new_hcp,4,Internal Medicine,Non-preferred,30,15,535,66,20,True,all_supplied_training
+new_hcp,4,Internal Medicine,Not covered,11,8,214,62,2,True,all_supplied_training
+new_hcp,4,Internal Medicine,Preferred,33,14,422,66,22,True,all_supplied_training
+new_hcp,4,Internal Medicine,Restricted,19,14,362,66,8,True,all_supplied_training
+new_hcp,4,Nephrology,Non-preferred,1,1,167,19,3,True,all_supplied_training
+new_hcp,4,Nephrology,Not covered,1,1,64,19,0,True,all_supplied_training
+new_hcp,4,Nephrology,Preferred,3,1,98,19,8,True,all_supplied_training
+new_hcp,4,Nephrology,Restricted,1,1,115,19,3,True,all_supplied_training
+new_hcp,4,Primary Care,Non-preferred,22,9,400,44,11,True,all_supplied_training
+new_hcp,4,Primary Care,Not covered,3,3,147,44,1,True,all_supplied_training
+new_hcp,4,Primary Care,Preferred,19,9,250,44,9,True,all_supplied_training
+new_hcp,4,Primary Care,Restricted,10,6,226,44,5,True,all_supplied_training
+new_hcp,5,Cardiology,Non-preferred,29,15,288,31,15,True,all_supplied_training
+new_hcp,5,Cardiology,Not covered,3,3,79,28,2,True,all_supplied_training
+new_hcp,5,Cardiology,Preferred,42,16,198,31,23,True,all_supplied_training
+new_hcp,5,Cardiology,Restricted,19,11,152,31,7,True,all_supplied_training
+new_hcp,5,Endocrinology,Non-preferred,5,2,302,39,16,True,all_supplied_training
+new_hcp,5,Endocrinology,Not covered,1,1,120,37,2,True,all_supplied_training
+new_hcp,5,Endocrinology,Preferred,6,3,267,39,30,True,all_supplied_training
+new_hcp,5,Endocrinology,Restricted,6,2,221,39,10,True,all_supplied_training
+new_hcp,5,Internal Medicine,Non-preferred,23,12,496,58,30,True,all_supplied_training
+new_hcp,5,Internal Medicine,Not covered,11,8,179,54,5,True,all_supplied_training
+new_hcp,5,Internal Medicine,Preferred,24,12,350,58,30,True,all_supplied_training
+new_hcp,5,Internal Medicine,Restricted,13,8,316,58,9,True,all_supplied_training
+new_hcp,5,Nephrology,Non-preferred,3,2,159,19,6,True,all_supplied_training
+new_hcp,5,Nephrology,Preferred,5,2,124,19,11,True,all_supplied_training
+new_hcp,5,Nephrology,Restricted,2,2,99,19,4,True,all_supplied_training
+new_hcp,5,Primary Care,Non-preferred,15,7,528,62,17,True,all_supplied_training
+new_hcp,5,Primary Care,Not covered,3,3,177,60,2,True,all_supplied_training
+new_hcp,5,Primary Care,Preferred,21,9,384,62,22,True,all_supplied_training
+new_hcp,5,Primary Care,Restricted,13,7,349,62,2,True,all_supplied_training
+new_hcp,6,Cardiology,Non-preferred,11,4,299,38,16,True,all_supplied_training
+new_hcp,6,Cardiology,Not covered,2,2,124,38,7,True,all_supplied_training
+new_hcp,6,Cardiology,Preferred,11,4,258,38,32,True,all_supplied_training
+new_hcp,6,Endocrinology,Non-preferred,17,8,356,43,28,True,all_supplied_training
+new_hcp,6,Endocrinology,Not covered,4,4,127,42,1,True,all_supplied_training
+new_hcp,6,Endocrinology,Preferred,25,9,253,43,35,True,all_supplied_training
+new_hcp,6,Endocrinology,Restricted,8,6,262,43,16,True,all_supplied_training
+new_hcp,6,Internal Medicine,Non-preferred,22,11,556,67,30,True,all_supplied_training
+new_hcp,6,Internal Medicine,Not covered,8,7,188,64,1,True,all_supplied_training
+new_hcp,6,Internal Medicine,Preferred,35,14,434,67,45,True,all_supplied_training
+new_hcp,6,Internal Medicine,Restricted,16,10,369,67,4,True,all_supplied_training
+new_hcp,6,Nephrology,Non-preferred,10,5,151,18,8,True,all_supplied_training
+new_hcp,6,Nephrology,Not covered,2,2,46,16,0,True,all_supplied_training
+new_hcp,6,Nephrology,Preferred,22,7,115,18,16,True,all_supplied_training
+new_hcp,6,Nephrology,Restricted,5,4,98,18,3,True,all_supplied_training
+new_hcp,6,Primary Care,Non-preferred,22,10,369,43,14,True,all_supplied_training
+new_hcp,6,Primary Care,Not covered,6,6,138,41,5,True,all_supplied_training
+new_hcp,6,Primary Care,Preferred,24,11,263,43,24,True,all_supplied_training
+new_hcp,6,Primary Care,Restricted,10,6,228,43,7,True,all_supplied_training
+new_hcp,7,Cardiology,Non-preferred,10,6,324,42,30,True,all_supplied_training
+new_hcp,7,Cardiology,Not covered,1,1,143,42,6,True,all_supplied_training
+new_hcp,7,Cardiology,Preferred,16,6,263,42,49,True,all_supplied_training
+new_hcp,7,Cardiology,Restricted,9,6,241,42,17,True,all_supplied_training
+new_hcp,7,Endocrinology,Non-preferred,10,5,378,45,36,True,all_supplied_training
+new_hcp,7,Endocrinology,Not covered,2,2,132,44,3,True,all_supplied_training
+new_hcp,7,Endocrinology,Preferred,23,7,275,45,60,True,all_supplied_training
+new_hcp,7,Endocrinology,Restricted,6,6,246,45,11,True,all_supplied_training
+new_hcp,7,Internal Medicine,Non-preferred,33,17,566,67,44,True,all_supplied_training
+new_hcp,7,Internal Medicine,Not covered,6,5,196,64,5,True,all_supplied_training
+new_hcp,7,Internal Medicine,Preferred,63,22,421,67,50,True,all_supplied_training
+new_hcp,7,Internal Medicine,Restricted,31,17,377,67,11,True,all_supplied_training
+new_hcp,7,Nephrology,Non-preferred,8,3,184,20,16,True,all_supplied_training
+new_hcp,7,Nephrology,Not covered,4,3,56,19,1,True,all_supplied_training
+new_hcp,7,Nephrology,Preferred,11,5,119,20,22,True,all_supplied_training
+new_hcp,7,Nephrology,Restricted,6,4,110,20,6,True,all_supplied_training
+new_hcp,7,Primary Care,Non-preferred,14,8,377,48,25,True,all_supplied_training
+new_hcp,7,Primary Care,Not covered,3,2,144,46,7,True,all_supplied_training
+new_hcp,7,Primary Care,Preferred,17,9,305,48,36,True,all_supplied_training
+new_hcp,7,Primary Care,Restricted,15,8,287,48,13,True,all_supplied_training
+new_hcp,8,Cardiology,Non-preferred,6,4,198,25,16,True,all_supplied_training
+new_hcp,8,Cardiology,Not covered,2,2,71,24,3,True,all_supplied_training
+new_hcp,8,Cardiology,Preferred,7,4,156,25,34,True,all_supplied_training
+new_hcp,8,Cardiology,Restricted,8,4,144,25,14,True,all_supplied_training
+new_hcp,8,Endocrinology,Non-preferred,14,8,239,29,34,True,all_supplied_training
+new_hcp,8,Endocrinology,Not covered,1,1,88,26,1,True,all_supplied_training
+new_hcp,8,Endocrinology,Preferred,31,9,176,29,47,True,all_supplied_training
+new_hcp,8,Endocrinology,Restricted,8,5,162,29,12,True,all_supplied_training
+new_hcp,8,Internal Medicine,Non-preferred,16,9,600,68,43,True,all_supplied_training
+new_hcp,8,Internal Medicine,Not covered,4,4,189,64,6,True,all_supplied_training
+new_hcp,8,Internal Medicine,Preferred,20,9,387,68,67,True,all_supplied_training
+new_hcp,8,Internal Medicine,Restricted,17,8,384,68,23,True,all_supplied_training
+new_hcp,8,Nephrology,Non-preferred,14,6,156,18,14,True,all_supplied_training
+new_hcp,8,Nephrology,Not covered,2,1,53,18,3,True,all_supplied_training
+new_hcp,8,Nephrology,Preferred,11,4,112,18,20,True,all_supplied_training
+new_hcp,8,Nephrology,Restricted,7,4,89,18,7,True,all_supplied_training
+new_hcp,8,Primary Care,Non-preferred,22,11,472,52,37,True,all_supplied_training
+new_hcp,8,Primary Care,Not covered,6,5,146,50,7,True,all_supplied_training
+new_hcp,8,Primary Care,Preferred,37,13,310,52,33,True,all_supplied_training
+new_hcp,8,Primary Care,Restricted,9,7,272,52,24,True,all_supplied_training
+new_hcp,9,Cardiology,Non-preferred,5,3,320,37,54,True,all_supplied_training
+new_hcp,9,Cardiology,Not covered,1,1,101,35,8,True,all_supplied_training
+new_hcp,9,Cardiology,Preferred,15,4,242,37,59,True,all_supplied_training
+new_hcp,9,Cardiology,Restricted,2,1,197,37,16,True,all_supplied_training
+new_hcp,9,Endocrinology,Non-preferred,10,5,292,36,46,True,all_supplied_training
+new_hcp,9,Endocrinology,Not covered,7,6,114,35,10,True,all_supplied_training
+new_hcp,9,Endocrinology,Preferred,12,6,226,35,69,True,all_supplied_training
+new_hcp,9,Endocrinology,Restricted,7,5,189,36,17,True,all_supplied_training
+new_hcp,9,Internal Medicine,Non-preferred,15,7,526,66,64,True,all_supplied_training
+new_hcp,9,Internal Medicine,Not covered,8,5,216,62,14,True,all_supplied_training
+new_hcp,9,Internal Medicine,Preferred,23,8,420,66,87,True,all_supplied_training
+new_hcp,9,Internal Medicine,Restricted,5,5,378,66,33,True,all_supplied_training
+new_hcp,9,Nephrology,Non-preferred,9,5,134,17,17,True,all_supplied_training
+new_hcp,9,Nephrology,Not covered,1,1,62,16,2,True,all_supplied_training
+new_hcp,9,Nephrology,Preferred,11,5,100,17,25,True,all_supplied_training
+new_hcp,9,Nephrology,Restricted,8,5,95,17,10,True,all_supplied_training
+new_hcp,9,Primary Care,Non-preferred,29,12,553,65,63,True,all_supplied_training
+new_hcp,9,Primary Care,Not covered,9,6,181,62,7,True,all_supplied_training
+new_hcp,9,Primary Care,Preferred,23,9,403,65,59,True,all_supplied_training
+new_hcp,9,Primary Care,Restricted,11,9,366,65,20,True,all_supplied_training
+new_hcp,10,Cardiology,Non-preferred,9,5,375,44,78,True,all_supplied_training
+new_hcp,10,Cardiology,Preferred,13,5,275,44,105,True,all_supplied_training
+new_hcp,10,Cardiology,Restricted,7,5,245,44,35,True,all_supplied_training
+new_hcp,10,Endocrinology,Non-preferred,5,2,292,34,69,True,all_supplied_training
+new_hcp,10,Endocrinology,Not covered,1,1,94,33,8,True,all_supplied_training
+new_hcp,10,Endocrinology,Preferred,6,3,188,34,59,True,all_supplied_training
+new_hcp,10,Endocrinology,Restricted,6,2,214,34,26,True,all_supplied_training
+new_hcp,10,Internal Medicine,Non-preferred,21,11,520,63,80,True,all_supplied_training
+new_hcp,10,Internal Medicine,Not covered,8,5,182,61,8,True,all_supplied_training
+new_hcp,10,Internal Medicine,Preferred,21,12,373,63,87,True,all_supplied_training
+new_hcp,10,Internal Medicine,Restricted,16,9,368,63,35,True,all_supplied_training
+new_hcp,10,Nephrology,Non-preferred,7,3,178,21,37,True,all_supplied_training
+new_hcp,10,Nephrology,Not covered,3,3,65,21,4,True,all_supplied_training
+new_hcp,10,Nephrology,Preferred,11,5,118,21,40,True,all_supplied_training
+new_hcp,10,Nephrology,Restricted,8,4,110,21,12,True,all_supplied_training
+new_hcp,10,Primary Care,Non-preferred,21,10,489,60,64,True,all_supplied_training
+new_hcp,10,Primary Care,Not covered,5,5,184,58,8,True,all_supplied_training
+new_hcp,10,Primary Care,Preferred,35,14,366,60,62,True,all_supplied_training
+new_hcp,10,Primary Care,Restricted,18,10,338,59,21,True,all_supplied_training
+known_hcp,1,Cardiology,Non-preferred,50,25,246,31,7,True,final_fit_through_2025-11
+known_hcp,1,Cardiology,Not covered,20,17,85,30,3,True,final_fit_through_2025-11
+known_hcp,1,Cardiology,Preferred,63,25,185,31,6,True,final_fit_through_2025-11
+known_hcp,1,Cardiology,Restricted,24,15,173,31,0,True,final_fit_through_2025-11
+known_hcp,1,Endocrinology,Non-preferred,43,22,222,29,6,True,final_fit_through_2025-11
+known_hcp,1,Endocrinology,Not covered,9,7,77,28,0,True,final_fit_through_2025-11
+known_hcp,1,Endocrinology,Preferred,68,25,178,29,3,True,final_fit_through_2025-11
+known_hcp,1,Endocrinology,Restricted,37,22,167,29,3,True,final_fit_through_2025-11
+known_hcp,1,Internal Medicine,Non-preferred,98,48,479,62,7,True,final_fit_through_2025-11
+known_hcp,1,Internal Medicine,Not covered,33,23,194,59,0,True,final_fit_through_2025-11
+known_hcp,1,Internal Medicine,Preferred,118,51,350,62,6,True,final_fit_through_2025-11
+known_hcp,1,Internal Medicine,Restricted,62,38,350,62,3,True,final_fit_through_2025-11
+known_hcp,1,Nephrology,Non-preferred,40,19,221,24,1,True,final_fit_through_2025-11
+known_hcp,1,Nephrology,Not covered,15,11,56,22,0,True,final_fit_through_2025-11
+known_hcp,1,Nephrology,Preferred,44,20,124,24,0,True,final_fit_through_2025-11
+known_hcp,1,Nephrology,Restricted,20,14,134,24,2,True,final_fit_through_2025-11
+known_hcp,1,Primary Care,Non-preferred,88,44,461,56,2,True,final_fit_through_2025-11
+known_hcp,1,Primary Care,Not covered,27,20,149,52,0,True,final_fit_through_2025-11
+known_hcp,1,Primary Care,Preferred,117,46,344,56,9,True,final_fit_through_2025-11
+known_hcp,1,Primary Care,Restricted,60,37,296,56,2,True,final_fit_through_2025-11
+known_hcp,2,Cardiology,Non-preferred,50,24,227,30,4,True,final_fit_through_2025-11
+known_hcp,2,Cardiology,Not covered,9,7,96,29,0,True,final_fit_through_2025-11
+known_hcp,2,Cardiology,Preferred,64,24,177,30,8,True,final_fit_through_2025-11
+known_hcp,2,Cardiology,Restricted,29,16,171,30,3,True,final_fit_through_2025-11
+known_hcp,2,Endocrinology,Non-preferred,42,18,212,26,3,True,final_fit_through_2025-11
+known_hcp,2,Endocrinology,Not covered,12,11,65,25,1,True,final_fit_through_2025-11
+known_hcp,2,Endocrinology,Preferred,56,21,166,26,7,True,final_fit_through_2025-11
+known_hcp,2,Endocrinology,Restricted,24,15,130,25,3,True,final_fit_through_2025-11
+known_hcp,2,Internal Medicine,Non-preferred,92,46,536,64,9,True,final_fit_through_2025-11
+known_hcp,2,Internal Medicine,Not covered,32,26,158,56,0,True,final_fit_through_2025-11
+known_hcp,2,Internal Medicine,Preferred,118,51,378,64,12,True,final_fit_through_2025-11
+known_hcp,2,Internal Medicine,Restricted,65,39,350,64,5,True,final_fit_through_2025-11
+known_hcp,2,Nephrology,Non-preferred,27,13,149,19,3,True,final_fit_through_2025-11
+known_hcp,2,Nephrology,Not covered,10,9,56,18,1,True,final_fit_through_2025-11
+known_hcp,2,Nephrology,Preferred,34,15,119,19,4,True,final_fit_through_2025-11
+known_hcp,2,Nephrology,Restricted,17,12,104,19,0,True,final_fit_through_2025-11
+known_hcp,2,Primary Care,Non-preferred,87,43,437,55,4,True,final_fit_through_2025-11
+known_hcp,2,Primary Care,Not covered,15,15,158,55,0,True,final_fit_through_2025-11
+known_hcp,2,Primary Care,Preferred,130,47,319,55,5,True,final_fit_through_2025-11
+known_hcp,2,Primary Care,Restricted,51,35,306,55,4,True,final_fit_through_2025-11
+known_hcp,3,Cardiology,Non-preferred,50,25,215,30,10,True,final_fit_through_2025-11
+known_hcp,3,Cardiology,Not covered,9,9,82,29,1,True,final_fit_through_2025-11
+known_hcp,3,Cardiology,Preferred,63,25,181,30,10,True,final_fit_through_2025-11
+known_hcp,3,Cardiology,Restricted,30,21,184,30,3,True,final_fit_through_2025-11
+known_hcp,3,Endocrinology,Non-preferred,46,27,280,35,14,True,final_fit_through_2025-11
+known_hcp,3,Endocrinology,Not covered,19,15,97,33,1,True,final_fit_through_2025-11
+known_hcp,3,Endocrinology,Preferred,69,28,218,35,18,True,final_fit_through_2025-11
+known_hcp,3,Endocrinology,Restricted,45,25,185,35,1,True,final_fit_through_2025-11
+known_hcp,3,Internal Medicine,Non-preferred,113,52,518,65,10,True,final_fit_through_2025-11
+known_hcp,3,Internal Medicine,Not covered,27,23,190,61,1,True,final_fit_through_2025-11
+known_hcp,3,Internal Medicine,Preferred,128,57,408,65,21,True,final_fit_through_2025-11
+known_hcp,3,Internal Medicine,Restricted,76,47,325,65,5,True,final_fit_through_2025-11
+known_hcp,3,Nephrology,Non-preferred,38,18,193,25,5,True,final_fit_through_2025-11
+known_hcp,3,Nephrology,Not covered,11,9,73,25,1,True,final_fit_through_2025-11
+known_hcp,3,Nephrology,Preferred,51,20,151,25,9,True,final_fit_through_2025-11
+known_hcp,3,Nephrology,Restricted,20,13,132,25,0,True,final_fit_through_2025-11
+known_hcp,3,Primary Care,Non-preferred,129,63,611,75,20,True,final_fit_through_2025-11
+known_hcp,3,Primary Care,Not covered,31,28,228,72,0,True,final_fit_through_2025-11
+known_hcp,3,Primary Care,Preferred,159,66,450,75,17,True,final_fit_through_2025-11
+known_hcp,3,Primary Care,Restricted,72,49,379,75,5,True,final_fit_through_2025-11
+known_hcp,4,Cardiology,Non-preferred,54,31,310,39,10,True,final_fit_through_2025-11
+known_hcp,4,Cardiology,Not covered,24,13,101,37,2,True,final_fit_through_2025-11
+known_hcp,4,Cardiology,Preferred,77,31,238,39,12,True,final_fit_through_2025-11
+known_hcp,4,Cardiology,Restricted,48,27,221,39,7,True,final_fit_through_2025-11
+known_hcp,4,Endocrinology,Non-preferred,48,25,242,31,8,True,final_fit_through_2025-11
+known_hcp,4,Endocrinology,Not covered,10,8,90,30,2,True,final_fit_through_2025-11
+known_hcp,4,Endocrinology,Preferred,66,25,189,30,18,True,final_fit_through_2025-11
+known_hcp,4,Endocrinology,Restricted,39,21,170,31,5,True,final_fit_through_2025-11
+known_hcp,4,Internal Medicine,Non-preferred,111,55,520,66,20,True,final_fit_through_2025-11
+known_hcp,4,Internal Medicine,Not covered,32,26,207,62,2,True,final_fit_through_2025-11
+known_hcp,4,Internal Medicine,Preferred,142,57,395,66,19,True,final_fit_through_2025-11
+known_hcp,4,Internal Medicine,Restricted,53,35,346,66,8,True,final_fit_through_2025-11
+known_hcp,4,Nephrology,Non-preferred,21,13,164,19,3,True,final_fit_through_2025-11
+known_hcp,4,Nephrology,Not covered,10,9,62,19,0,True,final_fit_through_2025-11
+known_hcp,4,Nephrology,Preferred,50,17,90,19,8,True,final_fit_through_2025-11
+known_hcp,4,Nephrology,Restricted,17,13,110,19,3,True,final_fit_through_2025-11
+known_hcp,4,Primary Care,Non-preferred,73,34,383,44,10,True,final_fit_through_2025-11
+known_hcp,4,Primary Care,Not covered,26,20,142,44,1,True,final_fit_through_2025-11
+known_hcp,4,Primary Care,Preferred,86,35,238,44,8,True,final_fit_through_2025-11
+known_hcp,4,Primary Care,Restricted,44,25,217,44,5,True,final_fit_through_2025-11
+known_hcp,5,Cardiology,Non-preferred,39,22,275,31,15,True,final_fit_through_2025-11
+known_hcp,5,Cardiology,Not covered,16,11,78,28,2,True,final_fit_through_2025-11
+known_hcp,5,Cardiology,Preferred,66,24,190,31,23,True,final_fit_through_2025-11
+known_hcp,5,Cardiology,Restricted,25,16,144,30,7,True,final_fit_through_2025-11
+known_hcp,5,Endocrinology,Non-preferred,59,30,294,39,16,True,final_fit_through_2025-11
+known_hcp,5,Endocrinology,Not covered,19,15,117,37,2,True,final_fit_through_2025-11
+known_hcp,5,Endocrinology,Preferred,73,31,249,39,27,True,final_fit_through_2025-11
+known_hcp,5,Endocrinology,Restricted,30,21,211,39,10,True,final_fit_through_2025-11
+known_hcp,5,Internal Medicine,Non-preferred,83,42,479,58,29,True,final_fit_through_2025-11
+known_hcp,5,Internal Medicine,Not covered,30,22,173,54,5,True,final_fit_through_2025-11
+known_hcp,5,Internal Medicine,Preferred,110,43,324,58,29,True,final_fit_through_2025-11
+known_hcp,5,Internal Medicine,Restricted,60,34,308,58,9,True,final_fit_through_2025-11
+known_hcp,5,Nephrology,Non-preferred,31,14,152,19,6,True,final_fit_through_2025-11
+known_hcp,5,Nephrology,Not covered,6,4,54,19,0,True,final_fit_through_2025-11
+known_hcp,5,Nephrology,Preferred,47,17,118,19,10,True,final_fit_through_2025-11
+known_hcp,5,Nephrology,Restricted,17,14,95,19,4,True,final_fit_through_2025-11
+known_hcp,5,Primary Care,Non-preferred,95,49,511,62,17,True,final_fit_through_2025-11
+known_hcp,5,Primary Care,Not covered,31,25,171,59,2,True,final_fit_through_2025-11
+known_hcp,5,Primary Care,Preferred,130,52,357,62,20,True,final_fit_through_2025-11
+known_hcp,5,Primary Care,Restricted,62,39,339,62,2,True,final_fit_through_2025-11
+known_hcp,6,Cardiology,Non-preferred,57,29,287,38,16,True,final_fit_through_2025-11
+known_hcp,6,Cardiology,Not covered,17,12,120,38,6,True,final_fit_through_2025-11
+known_hcp,6,Cardiology,Preferred,72,29,243,38,30,True,final_fit_through_2025-11
+known_hcp,6,Cardiology,Restricted,39,22,195,37,7,True,final_fit_through_2025-11
+known_hcp,6,Endocrinology,Non-preferred,66,32,346,43,28,True,final_fit_through_2025-11
+known_hcp,6,Endocrinology,Not covered,21,19,123,42,1,True,final_fit_through_2025-11
+known_hcp,6,Endocrinology,Preferred,76,35,238,43,34,True,final_fit_through_2025-11
+known_hcp,6,Endocrinology,Restricted,40,26,251,43,16,True,final_fit_through_2025-11
+known_hcp,6,Internal Medicine,Non-preferred,104,51,531,67,29,True,final_fit_through_2025-11
+known_hcp,6,Internal Medicine,Not covered,33,28,183,63,1,True,final_fit_through_2025-11
+known_hcp,6,Internal Medicine,Preferred,141,58,409,67,42,True,final_fit_through_2025-11
+known_hcp,6,Internal Medicine,Restricted,78,51,363,67,4,True,final_fit_through_2025-11
+known_hcp,6,Nephrology,Non-preferred,25,10,146,18,7,True,final_fit_through_2025-11
+known_hcp,6,Nephrology,Not covered,9,7,46,16,0,True,final_fit_through_2025-11
+known_hcp,6,Nephrology,Preferred,26,11,109,18,14,True,final_fit_through_2025-11
+known_hcp,6,Nephrology,Restricted,10,7,92,18,3,True,final_fit_through_2025-11
+known_hcp,6,Primary Care,Non-preferred,65,33,353,43,14,True,final_fit_through_2025-11
+known_hcp,6,Primary Care,Not covered,21,18,133,41,5,True,final_fit_through_2025-11
+known_hcp,6,Primary Care,Preferred,99,35,248,43,24,True,final_fit_through_2025-11
+known_hcp,6,Primary Care,Restricted,29,21,223,43,7,True,final_fit_through_2025-11
+known_hcp,7,Cardiology,Non-preferred,59,30,313,42,30,True,final_fit_through_2025-11
+known_hcp,7,Cardiology,Not covered,29,24,139,42,6,True,final_fit_through_2025-11
+known_hcp,7,Cardiology,Preferred,94,36,246,42,47,True,final_fit_through_2025-11
+known_hcp,7,Cardiology,Restricted,37,23,233,42,17,True,final_fit_through_2025-11
+known_hcp,7,Endocrinology,Non-preferred,60,28,365,45,36,True,final_fit_through_2025-11
+known_hcp,7,Endocrinology,Not covered,23,17,124,43,3,True,final_fit_through_2025-11
+known_hcp,7,Endocrinology,Preferred,88,36,261,45,56,True,final_fit_through_2025-11
+known_hcp,7,Endocrinology,Restricted,45,28,238,45,11,True,final_fit_through_2025-11
+known_hcp,7,Internal Medicine,Non-preferred,95,49,550,67,43,True,final_fit_through_2025-11
+known_hcp,7,Internal Medicine,Not covered,31,21,193,64,5,True,final_fit_through_2025-11
+known_hcp,7,Internal Medicine,Preferred,131,53,392,67,49,True,final_fit_through_2025-11
+known_hcp,7,Internal Medicine,Restricted,58,37,359,67,11,True,final_fit_through_2025-11
+known_hcp,7,Nephrology,Non-preferred,28,14,179,20,16,True,final_fit_through_2025-11
+known_hcp,7,Nephrology,Not covered,8,6,53,19,1,True,final_fit_through_2025-11
+known_hcp,7,Nephrology,Preferred,39,15,111,20,19,True,final_fit_through_2025-11
+known_hcp,7,Nephrology,Restricted,23,15,106,20,6,True,final_fit_through_2025-11
+known_hcp,7,Primary Care,Non-preferred,61,30,360,48,24,True,final_fit_through_2025-11
+known_hcp,7,Primary Care,Not covered,18,14,143,46,7,True,final_fit_through_2025-11
+known_hcp,7,Primary Care,Preferred,87,33,284,48,34,True,final_fit_through_2025-11
+known_hcp,7,Primary Care,Restricted,31,22,281,48,13,True,final_fit_through_2025-11
+known_hcp,8,Cardiology,Non-preferred,27,14,190,25,16,True,final_fit_through_2025-11
+known_hcp,8,Cardiology,Not covered,12,10,68,23,3,True,final_fit_through_2025-11
+known_hcp,8,Cardiology,Preferred,46,20,149,25,32,True,final_fit_through_2025-11
+known_hcp,8,Cardiology,Restricted,26,15,139,25,14,True,final_fit_through_2025-11
+known_hcp,8,Endocrinology,Non-preferred,51,23,231,29,32,True,final_fit_through_2025-11
+known_hcp,8,Endocrinology,Not covered,12,12,84,26,1,True,final_fit_through_2025-11
+known_hcp,8,Endocrinology,Preferred,60,24,165,29,47,True,final_fit_through_2025-11
+known_hcp,8,Endocrinology,Restricted,22,16,157,29,10,True,final_fit_through_2025-11
+known_hcp,8,Internal Medicine,Non-preferred,111,54,578,68,40,True,final_fit_through_2025-11
+known_hcp,8,Internal Medicine,Not covered,28,22,182,64,5,True,final_fit_through_2025-11
+known_hcp,8,Internal Medicine,Preferred,150,61,365,68,64,True,final_fit_through_2025-11
+known_hcp,8,Internal Medicine,Restricted,65,45,371,68,23,True,final_fit_through_2025-11
+known_hcp,8,Nephrology,Non-preferred,20,11,150,18,13,True,final_fit_through_2025-11
+known_hcp,8,Nephrology,Not covered,5,5,50,18,3,True,final_fit_through_2025-11
+known_hcp,8,Nephrology,Preferred,36,13,107,18,20,True,final_fit_through_2025-11
+known_hcp,8,Nephrology,Restricted,14,10,86,18,7,True,final_fit_through_2025-11
+known_hcp,8,Primary Care,Non-preferred,76,40,453,52,36,True,final_fit_through_2025-11
+known_hcp,8,Primary Care,Not covered,16,16,142,50,7,True,final_fit_through_2025-11
+known_hcp,8,Primary Care,Preferred,115,44,290,52,32,True,final_fit_through_2025-11
+known_hcp,8,Primary Care,Restricted,44,29,265,52,23,True,final_fit_through_2025-11
+known_hcp,9,Cardiology,Non-preferred,51,24,310,37,52,True,final_fit_through_2025-11
+known_hcp,9,Cardiology,Not covered,20,15,98,34,8,True,final_fit_through_2025-11
+known_hcp,9,Cardiology,Preferred,78,30,224,37,56,True,final_fit_through_2025-11
+known_hcp,9,Cardiology,Restricted,35,24,194,37,15,True,final_fit_through_2025-11
+known_hcp,9,Endocrinology,Non-preferred,47,22,277,36,44,True,final_fit_through_2025-11
+known_hcp,9,Endocrinology,Not covered,22,17,110,35,10,True,final_fit_through_2025-11
+known_hcp,9,Endocrinology,Preferred,49,24,215,35,65,True,final_fit_through_2025-11
+known_hcp,9,Endocrinology,Restricted,48,23,184,36,17,True,final_fit_through_2025-11
+known_hcp,9,Internal Medicine,Non-preferred,109,53,501,66,63,True,final_fit_through_2025-11
+known_hcp,9,Internal Medicine,Not covered,28,25,208,62,14,True,final_fit_through_2025-11
+known_hcp,9,Internal Medicine,Preferred,134,52,398,66,81,True,final_fit_through_2025-11
+known_hcp,9,Internal Medicine,Restricted,71,43,370,66,31,True,final_fit_through_2025-11
+known_hcp,9,Nephrology,Non-preferred,21,13,129,17,16,True,final_fit_through_2025-11
+known_hcp,9,Nephrology,Not covered,6,6,60,16,2,True,final_fit_through_2025-11
+known_hcp,9,Nephrology,Preferred,39,14,93,17,22,True,final_fit_through_2025-11
+known_hcp,9,Nephrology,Restricted,14,9,92,17,10,True,final_fit_through_2025-11
+known_hcp,9,Primary Care,Non-preferred,87,40,532,65,62,True,final_fit_through_2025-11
+known_hcp,9,Primary Care,Not covered,23,19,173,61,7,True,final_fit_through_2025-11
+known_hcp,9,Primary Care,Preferred,117,45,380,65,56,True,final_fit_through_2025-11
+known_hcp,9,Primary Care,Restricted,62,39,353,65,18,True,final_fit_through_2025-11
+known_hcp,10,Cardiology,Non-preferred,72,35,362,44,76,True,final_fit_through_2025-11
+known_hcp,10,Cardiology,Not covered,21,15,129,43,9,True,final_fit_through_2025-11
+known_hcp,10,Cardiology,Preferred,79,33,255,44,96,True,final_fit_through_2025-11
+known_hcp,10,Cardiology,Restricted,45,26,237,44,34,True,final_fit_through_2025-11
+known_hcp,10,Endocrinology,Non-preferred,48,24,279,34,65,True,final_fit_through_2025-11
+known_hcp,10,Endocrinology,Not covered,13,12,89,32,8,True,final_fit_through_2025-11
+known_hcp,10,Endocrinology,Preferred,66,27,177,34,53,True,final_fit_through_2025-11
+known_hcp,10,Endocrinology,Restricted,40,20,209,34,26,True,final_fit_through_2025-11
+known_hcp,10,Internal Medicine,Non-preferred,94,51,510,63,79,True,final_fit_through_2025-11
+known_hcp,10,Internal Medicine,Not covered,35,30,179,61,8,True,final_fit_through_2025-11
+known_hcp,10,Internal Medicine,Preferred,130,52,345,63,82,True,final_fit_through_2025-11
+known_hcp,10,Internal Medicine,Restricted,64,36,348,63,33,True,final_fit_through_2025-11
+known_hcp,10,Nephrology,Non-preferred,33,16,170,21,36,True,final_fit_through_2025-11
+known_hcp,10,Nephrology,Not covered,9,8,64,21,4,True,final_fit_through_2025-11
+known_hcp,10,Nephrology,Preferred,40,16,109,21,35,True,final_fit_through_2025-11
+known_hcp,10,Nephrology,Restricted,16,10,108,21,12,True,final_fit_through_2025-11
+known_hcp,10,Primary Care,Non-preferred,80,43,470,60,63,True,final_fit_through_2025-11
+known_hcp,10,Primary Care,Not covered,29,21,177,58,8,True,final_fit_through_2025-11
+known_hcp,10,Primary Care,Preferred,122,47,346,60,60,True,final_fit_through_2025-11
+known_hcp,10,Primary Care,Restricted,53,34,329,59,21,True,final_fit_through_2025-11
+new_hcp,1,Cardiology,Non-preferred,21,10,246,31,7,True,final_fit_through_2025-11
+new_hcp,1,Cardiology,Not covered,3,3,85,30,3,True,final_fit_through_2025-11
+new_hcp,1,Cardiology,Preferred,22,10,185,31,6,True,final_fit_through_2025-11
+new_hcp,1,Cardiology,Restricted,12,9,173,31,0,True,final_fit_through_2025-11
+new_hcp,1,Endocrinology,Non-preferred,20,10,222,29,6,True,final_fit_through_2025-11
+new_hcp,1,Endocrinology,Not covered,7,4,77,28,0,True,final_fit_through_2025-11
+new_hcp,1,Endocrinology,Preferred,32,12,178,29,3,True,final_fit_through_2025-11
+new_hcp,1,Endocrinology,Restricted,12,9,167,29,3,True,final_fit_through_2025-11
+new_hcp,1,Internal Medicine,Non-preferred,20,9,479,62,7,True,final_fit_through_2025-11
+new_hcp,1,Internal Medicine,Not covered,9,7,194,59,0,True,final_fit_through_2025-11
+new_hcp,1,Internal Medicine,Preferred,29,11,350,62,6,True,final_fit_through_2025-11
+new_hcp,1,Internal Medicine,Restricted,7,5,350,62,3,True,final_fit_through_2025-11
+new_hcp,1,Nephrology,Non-preferred,4,1,221,24,1,True,final_fit_through_2025-11
+new_hcp,1,Nephrology,Preferred,1,1,124,24,0,True,final_fit_through_2025-11
+new_hcp,1,Nephrology,Restricted,1,1,134,24,2,True,final_fit_through_2025-11
+new_hcp,1,Primary Care,Non-preferred,10,7,461,56,2,True,final_fit_through_2025-11
+new_hcp,1,Primary Care,Not covered,8,5,149,52,0,True,final_fit_through_2025-11
+new_hcp,1,Primary Care,Preferred,17,7,344,56,9,True,final_fit_through_2025-11
+new_hcp,1,Primary Care,Restricted,7,5,296,56,2,True,final_fit_through_2025-11
+new_hcp,2,Cardiology,Non-preferred,12,7,227,30,4,True,final_fit_through_2025-11
+new_hcp,2,Cardiology,Not covered,4,3,96,29,0,True,final_fit_through_2025-11
+new_hcp,2,Cardiology,Preferred,21,8,177,30,8,True,final_fit_through_2025-11
+new_hcp,2,Cardiology,Restricted,7,4,171,30,3,True,final_fit_through_2025-11
+new_hcp,2,Endocrinology,Non-preferred,10,5,212,26,3,True,final_fit_through_2025-11
+new_hcp,2,Endocrinology,Not covered,3,3,65,25,1,True,final_fit_through_2025-11
+new_hcp,2,Endocrinology,Preferred,16,6,166,26,7,True,final_fit_through_2025-11
+new_hcp,2,Endocrinology,Restricted,6,5,130,25,3,True,final_fit_through_2025-11
+new_hcp,2,Internal Medicine,Non-preferred,24,13,536,64,9,True,final_fit_through_2025-11
+new_hcp,2,Internal Medicine,Not covered,5,5,158,56,0,True,final_fit_through_2025-11
+new_hcp,2,Internal Medicine,Preferred,29,13,378,64,12,True,final_fit_through_2025-11
+new_hcp,2,Internal Medicine,Restricted,19,11,350,64,5,True,final_fit_through_2025-11
+new_hcp,2,Nephrology,Non-preferred,14,6,149,19,3,True,final_fit_through_2025-11
+new_hcp,2,Nephrology,Not covered,4,3,56,18,1,True,final_fit_through_2025-11
+new_hcp,2,Nephrology,Preferred,11,5,119,19,4,True,final_fit_through_2025-11
+new_hcp,2,Nephrology,Restricted,5,4,104,19,0,True,final_fit_through_2025-11
+new_hcp,2,Primary Care,Non-preferred,13,5,437,55,4,True,final_fit_through_2025-11
+new_hcp,2,Primary Care,Not covered,1,1,158,55,0,True,final_fit_through_2025-11
+new_hcp,2,Primary Care,Preferred,16,5,319,55,5,True,final_fit_through_2025-11
+new_hcp,3,Cardiology,Non-preferred,15,7,215,30,10,True,final_fit_through_2025-11
+new_hcp,3,Cardiology,Not covered,2,2,82,29,1,True,final_fit_through_2025-11
+new_hcp,3,Cardiology,Preferred,20,8,181,30,10,True,final_fit_through_2025-11
+new_hcp,3,Cardiology,Restricted,9,5,184,30,3,True,final_fit_through_2025-11
+new_hcp,3,Endocrinology,Non-preferred,5,3,280,35,14,True,final_fit_through_2025-11
+new_hcp,3,Endocrinology,Not covered,1,1,97,33,1,True,final_fit_through_2025-11
+new_hcp,3,Endocrinology,Preferred,8,3,218,35,18,True,final_fit_through_2025-11
+new_hcp,3,Endocrinology,Restricted,3,2,185,35,1,True,final_fit_through_2025-11
+new_hcp,3,Internal Medicine,Non-preferred,22,10,518,65,10,True,final_fit_through_2025-11
+new_hcp,3,Internal Medicine,Not covered,4,3,190,61,1,True,final_fit_through_2025-11
+new_hcp,3,Internal Medicine,Preferred,25,10,408,65,21,True,final_fit_through_2025-11
+new_hcp,3,Internal Medicine,Restricted,7,5,325,65,5,True,final_fit_through_2025-11
+new_hcp,3,Nephrology,Non-preferred,16,6,193,25,5,True,final_fit_through_2025-11
+new_hcp,3,Nephrology,Not covered,1,1,73,25,1,True,final_fit_through_2025-11
+new_hcp,3,Nephrology,Preferred,12,6,151,25,9,True,final_fit_through_2025-11
+new_hcp,3,Nephrology,Restricted,6,4,132,25,0,True,final_fit_through_2025-11
+new_hcp,3,Primary Care,Non-preferred,10,6,611,75,20,True,final_fit_through_2025-11
+new_hcp,3,Primary Care,Not covered,2,1,228,72,0,True,final_fit_through_2025-11
+new_hcp,3,Primary Care,Preferred,15,6,450,75,17,True,final_fit_through_2025-11
+new_hcp,3,Primary Care,Restricted,8,5,379,75,5,True,final_fit_through_2025-11
+new_hcp,4,Cardiology,Non-preferred,5,4,310,39,10,True,final_fit_through_2025-11
+new_hcp,4,Cardiology,Not covered,3,2,101,37,2,True,final_fit_through_2025-11
+new_hcp,4,Cardiology,Preferred,8,4,238,39,12,True,final_fit_through_2025-11
+new_hcp,4,Cardiology,Restricted,7,3,221,39,7,True,final_fit_through_2025-11
+new_hcp,4,Endocrinology,Non-preferred,8,4,242,31,8,True,final_fit_through_2025-11
+new_hcp,4,Endocrinology,Not covered,1,1,90,30,2,True,final_fit_through_2025-11
+new_hcp,4,Endocrinology,Preferred,10,4,189,30,18,True,final_fit_through_2025-11
+new_hcp,4,Endocrinology,Restricted,4,3,170,31,5,True,final_fit_through_2025-11
+new_hcp,4,Internal Medicine,Non-preferred,30,15,520,66,20,True,final_fit_through_2025-11
+new_hcp,4,Internal Medicine,Not covered,11,8,207,62,2,True,final_fit_through_2025-11
+new_hcp,4,Internal Medicine,Preferred,33,14,395,66,19,True,final_fit_through_2025-11
+new_hcp,4,Internal Medicine,Restricted,19,14,346,66,8,True,final_fit_through_2025-11
+new_hcp,4,Nephrology,Non-preferred,1,1,164,19,3,True,final_fit_through_2025-11
+new_hcp,4,Nephrology,Not covered,1,1,62,19,0,True,final_fit_through_2025-11
+new_hcp,4,Nephrology,Preferred,3,1,90,19,8,True,final_fit_through_2025-11
+new_hcp,4,Nephrology,Restricted,1,1,110,19,3,True,final_fit_through_2025-11
+new_hcp,4,Primary Care,Non-preferred,22,9,383,44,10,True,final_fit_through_2025-11
+new_hcp,4,Primary Care,Not covered,3,3,142,44,1,True,final_fit_through_2025-11
+new_hcp,4,Primary Care,Preferred,19,9,238,44,8,True,final_fit_through_2025-11
+new_hcp,4,Primary Care,Restricted,10,6,217,44,5,True,final_fit_through_2025-11
+new_hcp,5,Cardiology,Non-preferred,29,15,275,31,15,True,final_fit_through_2025-11
+new_hcp,5,Cardiology,Not covered,3,3,78,28,2,True,final_fit_through_2025-11
+new_hcp,5,Cardiology,Preferred,42,16,190,31,23,True,final_fit_through_2025-11
+new_hcp,5,Cardiology,Restricted,19,11,144,30,7,True,final_fit_through_2025-11
+new_hcp,5,Endocrinology,Non-preferred,5,2,294,39,16,True,final_fit_through_2025-11
+new_hcp,5,Endocrinology,Not covered,1,1,117,37,2,True,final_fit_through_2025-11
+new_hcp,5,Endocrinology,Preferred,6,3,249,39,27,True,final_fit_through_2025-11
+new_hcp,5,Endocrinology,Restricted,6,2,211,39,10,True,final_fit_through_2025-11
+new_hcp,5,Internal Medicine,Non-preferred,23,12,479,58,29,True,final_fit_through_2025-11
+new_hcp,5,Internal Medicine,Not covered,11,8,173,54,5,True,final_fit_through_2025-11
+new_hcp,5,Internal Medicine,Preferred,24,12,324,58,29,True,final_fit_through_2025-11
+new_hcp,5,Internal Medicine,Restricted,13,8,308,58,9,True,final_fit_through_2025-11
+new_hcp,5,Nephrology,Non-preferred,3,2,152,19,6,True,final_fit_through_2025-11
+new_hcp,5,Nephrology,Preferred,5,2,118,19,10,True,final_fit_through_2025-11
+new_hcp,5,Nephrology,Restricted,2,2,95,19,4,True,final_fit_through_2025-11
+new_hcp,5,Primary Care,Non-preferred,15,7,511,62,17,True,final_fit_through_2025-11
+new_hcp,5,Primary Care,Not covered,3,3,171,59,2,True,final_fit_through_2025-11
+new_hcp,5,Primary Care,Preferred,21,9,357,62,20,True,final_fit_through_2025-11
+new_hcp,5,Primary Care,Restricted,13,7,339,62,2,True,final_fit_through_2025-11
+new_hcp,6,Cardiology,Non-preferred,11,4,287,38,16,True,final_fit_through_2025-11
+new_hcp,6,Cardiology,Not covered,2,2,120,38,6,True,final_fit_through_2025-11
+new_hcp,6,Cardiology,Preferred,11,4,243,38,30,True,final_fit_through_2025-11
+new_hcp,6,Endocrinology,Non-preferred,17,8,346,43,28,True,final_fit_through_2025-11
+new_hcp,6,Endocrinology,Not covered,4,4,123,42,1,True,final_fit_through_2025-11
+new_hcp,6,Endocrinology,Preferred,25,9,238,43,34,True,final_fit_through_2025-11
+new_hcp,6,Endocrinology,Restricted,8,6,251,43,16,True,final_fit_through_2025-11
+new_hcp,6,Internal Medicine,Non-preferred,22,11,531,67,29,True,final_fit_through_2025-11
+new_hcp,6,Internal Medicine,Not covered,8,7,183,63,1,True,final_fit_through_2025-11
+new_hcp,6,Internal Medicine,Preferred,35,14,409,67,42,True,final_fit_through_2025-11
+new_hcp,6,Internal Medicine,Restricted,16,10,363,67,4,True,final_fit_through_2025-11
+new_hcp,6,Nephrology,Non-preferred,10,5,146,18,7,True,final_fit_through_2025-11
+new_hcp,6,Nephrology,Not covered,2,2,46,16,0,True,final_fit_through_2025-11
+new_hcp,6,Nephrology,Preferred,22,7,109,18,14,True,final_fit_through_2025-11
+new_hcp,6,Nephrology,Restricted,5,4,92,18,3,True,final_fit_through_2025-11
+new_hcp,6,Primary Care,Non-preferred,22,10,353,43,14,True,final_fit_through_2025-11
+new_hcp,6,Primary Care,Not covered,6,6,133,41,5,True,final_fit_through_2025-11
+new_hcp,6,Primary Care,Preferred,24,11,248,43,24,True,final_fit_through_2025-11
+new_hcp,6,Primary Care,Restricted,10,6,223,43,7,True,final_fit_through_2025-11
+new_hcp,7,Cardiology,Non-preferred,10,6,313,42,30,True,final_fit_through_2025-11
+new_hcp,7,Cardiology,Not covered,1,1,139,42,6,True,final_fit_through_2025-11
+new_hcp,7,Cardiology,Preferred,16,6,246,42,47,True,final_fit_through_2025-11
+new_hcp,7,Cardiology,Restricted,9,6,233,42,17,True,final_fit_through_2025-11
+new_hcp,7,Endocrinology,Non-preferred,10,5,365,45,36,True,final_fit_through_2025-11
+new_hcp,7,Endocrinology,Not covered,2,2,124,43,3,True,final_fit_through_2025-11
+new_hcp,7,Endocrinology,Preferred,23,7,261,45,56,True,final_fit_through_2025-11
+new_hcp,7,Endocrinology,Restricted,6,6,238,45,11,True,final_fit_through_2025-11
+new_hcp,7,Internal Medicine,Non-preferred,33,17,550,67,43,True,final_fit_through_2025-11
+new_hcp,7,Internal Medicine,Not covered,6,5,193,64,5,True,final_fit_through_2025-11
+new_hcp,7,Internal Medicine,Preferred,63,22,392,67,49,True,final_fit_through_2025-11
+new_hcp,7,Internal Medicine,Restricted,31,17,359,67,11,True,final_fit_through_2025-11
+new_hcp,7,Nephrology,Non-preferred,8,3,179,20,16,True,final_fit_through_2025-11
+new_hcp,7,Nephrology,Not covered,4,3,53,19,1,True,final_fit_through_2025-11
+new_hcp,7,Nephrology,Preferred,11,5,111,20,19,True,final_fit_through_2025-11
+new_hcp,7,Nephrology,Restricted,6,4,106,20,6,True,final_fit_through_2025-11
+new_hcp,7,Primary Care,Non-preferred,14,8,360,48,24,True,final_fit_through_2025-11
+new_hcp,7,Primary Care,Not covered,3,2,143,46,7,True,final_fit_through_2025-11
+new_hcp,7,Primary Care,Preferred,17,9,284,48,34,True,final_fit_through_2025-11
+new_hcp,7,Primary Care,Restricted,15,8,281,48,13,True,final_fit_through_2025-11
+new_hcp,8,Cardiology,Non-preferred,6,4,190,25,16,True,final_fit_through_2025-11
+new_hcp,8,Cardiology,Not covered,2,2,68,23,3,True,final_fit_through_2025-11
+new_hcp,8,Cardiology,Preferred,7,4,149,25,32,True,final_fit_through_2025-11
+new_hcp,8,Cardiology,Restricted,8,4,139,25,14,True,final_fit_through_2025-11
+new_hcp,8,Endocrinology,Non-preferred,14,8,231,29,32,True,final_fit_through_2025-11
+new_hcp,8,Endocrinology,Not covered,1,1,84,26,1,True,final_fit_through_2025-11
+new_hcp,8,Endocrinology,Preferred,31,9,165,29,47,True,final_fit_through_2025-11
+new_hcp,8,Endocrinology,Restricted,8,5,157,29,10,True,final_fit_through_2025-11
+new_hcp,8,Internal Medicine,Non-preferred,16,9,578,68,40,True,final_fit_through_2025-11
+new_hcp,8,Internal Medicine,Not covered,4,4,182,64,5,True,final_fit_through_2025-11
+new_hcp,8,Internal Medicine,Preferred,20,9,365,68,64,True,final_fit_through_2025-11
+new_hcp,8,Internal Medicine,Restricted,17,8,371,68,23,True,final_fit_through_2025-11
+new_hcp,8,Nephrology,Non-preferred,14,6,150,18,13,True,final_fit_through_2025-11
+new_hcp,8,Nephrology,Not covered,2,1,50,18,3,True,final_fit_through_2025-11
+new_hcp,8,Nephrology,Preferred,11,4,107,18,20,True,final_fit_through_2025-11
+new_hcp,8,Nephrology,Restricted,7,4,86,18,7,True,final_fit_through_2025-11
+new_hcp,8,Primary Care,Non-preferred,22,11,453,52,36,True,final_fit_through_2025-11
+new_hcp,8,Primary Care,Not covered,6,5,142,50,7,True,final_fit_through_2025-11
+new_hcp,8,Primary Care,Preferred,37,13,290,52,32,True,final_fit_through_2025-11
+new_hcp,8,Primary Care,Restricted,9,7,265,52,23,True,final_fit_through_2025-11
+new_hcp,9,Cardiology,Non-preferred,5,3,310,37,52,True,final_fit_through_2025-11
+new_hcp,9,Cardiology,Not covered,1,1,98,34,8,True,final_fit_through_2025-11
+new_hcp,9,Cardiology,Preferred,15,4,224,37,56,True,final_fit_through_2025-11
+new_hcp,9,Cardiology,Restricted,2,1,194,37,15,True,final_fit_through_2025-11
+new_hcp,9,Endocrinology,Non-preferred,10,5,277,36,44,True,final_fit_through_2025-11
+new_hcp,9,Endocrinology,Not covered,7,6,110,35,10,True,final_fit_through_2025-11
+new_hcp,9,Endocrinology,Preferred,12,6,215,35,65,True,final_fit_through_2025-11
+new_hcp,9,Endocrinology,Restricted,7,5,184,36,17,True,final_fit_through_2025-11
+new_hcp,9,Internal Medicine,Non-preferred,15,7,501,66,63,True,final_fit_through_2025-11
+new_hcp,9,Internal Medicine,Not covered,8,5,208,62,14,True,final_fit_through_2025-11
+new_hcp,9,Internal Medicine,Preferred,23,8,398,66,81,True,final_fit_through_2025-11
+new_hcp,9,Internal Medicine,Restricted,5,5,370,66,31,True,final_fit_through_2025-11
+new_hcp,9,Nephrology,Non-preferred,9,5,129,17,16,True,final_fit_through_2025-11
+new_hcp,9,Nephrology,Not covered,1,1,60,16,2,True,final_fit_through_2025-11
+new_hcp,9,Nephrology,Preferred,11,5,93,17,22,True,final_fit_through_2025-11
+new_hcp,9,Nephrology,Restricted,8,5,92,17,10,True,final_fit_through_2025-11
+new_hcp,9,Primary Care,Non-preferred,29,12,532,65,62,True,final_fit_through_2025-11
+new_hcp,9,Primary Care,Not covered,9,6,173,61,7,True,final_fit_through_2025-11
+new_hcp,9,Primary Care,Preferred,23,9,380,65,56,True,final_fit_through_2025-11
+new_hcp,9,Primary Care,Restricted,11,9,353,65,18,True,final_fit_through_2025-11
+new_hcp,10,Cardiology,Non-preferred,9,5,362,44,76,True,final_fit_through_2025-11
+new_hcp,10,Cardiology,Preferred,13,5,255,44,96,True,final_fit_through_2025-11
+new_hcp,10,Cardiology,Restricted,7,5,237,44,34,True,final_fit_through_2025-11
+new_hcp,10,Endocrinology,Non-preferred,5,2,279,34,65,True,final_fit_through_2025-11
+new_hcp,10,Endocrinology,Not covered,1,1,89,32,8,True,final_fit_through_2025-11
+new_hcp,10,Endocrinology,Preferred,6,3,177,34,53,True,final_fit_through_2025-11
+new_hcp,10,Endocrinology,Restricted,6,2,209,34,26,True,final_fit_through_2025-11
+new_hcp,10,Internal Medicine,Non-preferred,21,11,510,63,79,True,final_fit_through_2025-11
+new_hcp,10,Internal Medicine,Not covered,8,5,179,61,8,True,final_fit_through_2025-11
+new_hcp,10,Internal Medicine,Preferred,21,12,345,63,82,True,final_fit_through_2025-11
+new_hcp,10,Internal Medicine,Restricted,16,9,348,63,33,True,final_fit_through_2025-11
+new_hcp,10,Nephrology,Non-preferred,7,3,170,21,36,True,final_fit_through_2025-11
+new_hcp,10,Nephrology,Not covered,3,3,64,21,4,True,final_fit_through_2025-11
+new_hcp,10,Nephrology,Preferred,11,5,109,21,35,True,final_fit_through_2025-11
+new_hcp,10,Nephrology,Restricted,8,4,108,21,12,True,final_fit_through_2025-11
+new_hcp,10,Primary Care,Non-preferred,21,10,470,60,63,True,final_fit_through_2025-11
+new_hcp,10,Primary Care,Not covered,5,5,177,58,8,True,final_fit_through_2025-11
+new_hcp,10,Primary Care,Preferred,35,14,346,60,60,True,final_fit_through_2025-11
+new_hcp,10,Primary Care,Restricted,18,10,329,59,21,True,final_fit_through_2025-11
